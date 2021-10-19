@@ -6,7 +6,7 @@
     "dist"
   ],
   "main": "index.js",
-  "types": "",
+  "types": "./dist/",
   "scripts": {
     "build": "cd scripts && tsm compile.ts && cd .. && tsc"
   },
@@ -22,6 +22,8 @@
   "author": "PuruVJ",
   "license": "MIT",
   "devDependencies": {
+    "@types/node": "^16.10.3",
+    "brotli-size": "^4.0.0",
     "esbuild": "^0.13.4",
     "tsm": "^2.1.2",
     "typescript": "^4.4.3"
