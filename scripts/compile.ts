@@ -1,6 +1,7 @@
 import { sync } from 'brotli-size';
 import { build, BuildOptions } from 'esbuild';
 import { promises as fsp } from 'fs';
+import pkg from '../package.json';
 
 const commonConfig: BuildOptions = {
   entryPoints: [
@@ -71,6 +72,14 @@ async function compile() {
   console.log();
 }
 
-async function copyPackageJson() {}
+async function movePackageJson() {
+  // Stuff to remove
+  const { scripts, devDependencies, ...targetPkgJson } = pkg;
 
-compile();
+  targetPkgJson.private = false;
+
+  await fsp.writeFile('../dist/package.json', JSON.stringify(targetPkgJson, null, 2));
+}
+
+await compile();
+await movePackageJson();
