@@ -62,7 +62,7 @@
   },
   "scripts": {
     "pub": "pnpm build && cd dist && pnpm publish",
-    "build": "rimraf .dist/**/* && tsc && cd scripts && tsm compile.ts"
+    "build": "rimraf ./dist/**/* && tsc && cd scripts && tsm compile.ts"
   },
   "keywords": [
     "just",
