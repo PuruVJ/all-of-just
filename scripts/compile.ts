@@ -1,7 +1,8 @@
 import { sync } from 'brotli-size';
 import { build, BuildOptions } from 'esbuild';
-import { promises as fsp } from 'fs';
+import { promises as fsp, readFile } from 'fs';
 import pkg from '../package.json';
+import { makeDeclarationFile } from './make-declarations';
 
 const commonConfig: BuildOptions = {
   entryPoints: [
@@ -74,12 +75,25 @@ async function compile() {
 
 async function movePackageJson() {
   // Stuff to remove
-  const { scripts, devDependencies, ...targetPkgJson } = pkg;
+  const { scripts, devDependencies, dependencies, ...targetPkgJson } = pkg;
 
   targetPkgJson.private = false;
 
   await fsp.writeFile('../dist/package.json', JSON.stringify(targetPkgJson, null, 2));
 }
 
+async function modifyIndexDTS() {
+  const indexDTSFile = await fsp.readFile('../dist/index.d.ts', 'utf-8');
+
+  const justModuleDeclarations = await makeDeclarationFile();
+
+  await fsp.writeFile(
+    '../dist/index.d.ts',
+    justModuleDeclarations + '\n\n' + indexDTSFile,
+    'utf-8'
+  );
+}
+
 await compile();
+modifyIndexDTS();
 await movePackageJson();

@@ -1,3 +1,3 @@
-import { shuffle } from 'all-of-just/arrays';
+import { arraysShuffle } from 'all-of-just';
 
-console.log(shuffle([1, 2, 3, 4, 5, 6, 7, 8, 9]));
+console.log(arraysShuffle([1, 2, 3, 4, 5, 6, 7, 8, 9]));
