@@ -1,17 +1,17 @@
+import { sync } from 'brotli-size';
 import { build, BuildOptions } from 'esbuild';
 import { promises as fsp } from 'fs';
-import { sync } from 'brotli-size';
 
 const commonConfig: BuildOptions = {
   entryPoints: [
     '../src/index.ts',
-    '../src/collection.ts',
-    '../src/objects.ts',
-    '../src/arrays.ts',
-    '../src/statistics.ts',
-    '../src/strings.ts',
-    '../src/numbers.ts',
-    '../src/functions.ts',
+    '../src/collection/index.ts',
+    '../src/objects/index.ts',
+    '../src/arrays/index.ts',
+    '../src/statistics/index.ts',
+    '../src/strings/index.ts',
+    '../src/numbers/index.ts',
+    '../src/functions/index.ts',
   ],
   platform: 'browser',
   bundle: true,
@@ -24,16 +24,6 @@ const commonConfig: BuildOptions = {
 };
 
 async function main() {
-  // Make dist if not exists
-  try {
-    await fsp.mkdir('../dist');
-  } catch {}
-
-  // Clear the directory first
-  const files = await fsp.readdir('../dist/');
-
-  for (const file of files) await fsp.unlink('../dist/' + file);
-
   await Promise.all([
     build({
       ...commonConfig,
@@ -54,9 +44,13 @@ async function main() {
   // Read files again
   const builtFiles = [
     'index.js',
-    ...(await fsp.readdir('../dist/')).filter(
-      (file) => file.endsWith('.js') && !file.startsWith('index')
-    ),
+    'arrays/index.js',
+    'collection/index.js',
+    'objects/index.js',
+    'statistics/index.js',
+    'strings/index.js',
+    'numbers/index.js',
+    'functions/index.js',
   ];
 
   console.log();
@@ -66,7 +60,7 @@ async function main() {
       const size = (sync(await fsp.readFile(`../dist/${file}`)) / 1024).toFixed(2);
 
       return {
-        file,
+        file: file.replace('/index.js', ''),
         size: size + ' KB',
       };
     })

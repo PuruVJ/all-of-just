@@ -11,5 +11,5 @@
     "noImplicitAny": false
   },
   "exclude": ["./scripts/"],
-  "include": ["./src/"]
+  "include": ["./src/**/*"]
 }
