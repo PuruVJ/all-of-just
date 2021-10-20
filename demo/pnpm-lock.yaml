@@ -3,14 +3,14 @@ lockfileVersion: 5.3
 specifiers:
   '@sveltejs/vite-plugin-svelte': ^1.0.0-next.28
   '@tsconfig/svelte': ^2.0.1
-  all-of-just: ^0.0.5
+  all-of-just: ^0.0.6
   svelte: ^3.43.1
   svelte-preprocess: ^4.9.8
   typescript: ^4.4.3
   vite: ^2.6.7
 
 dependencies:
-  all-of-just: 0.0.5
+  all-of-just: 0.0.6
 
 devDependencies:
   '@sveltejs/vite-plugin-svelte': 1.0.0-next.28_svelte@3.43.1+vite@2.6.7
@@ -71,8 +71,8 @@ packages:
       '@types/node': 16.10.3
     dev: true
 
-  /all-of-just/0.0.5:
-    resolution: {integrity: sha512-QMmOhjI/qu2AHA7G+G80NwiQgNcF7WtUgqBIkEChm++Cf4EL03RefIBCn2rxEXDOgc2mC36AQSXWQQ2RIDgkJQ==}
+  /all-of-just/0.0.6:
+    resolution: {integrity: sha512-BWmiLxjjWhOIB2ap1uxX8Y/p9vFKZ0WLaS/DbK+gC9HKOr1m+rlJJ6f7mmzAR6M7vDl1fOMD/ZThFUmhYGBJQQ==}
     dependencies:
       just-camel-case: 4.0.2
       just-capitalize: 1.0.1
