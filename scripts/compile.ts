@@ -5,13 +5,13 @@ import { promises as fsp } from 'fs';
 const commonConfig: BuildOptions = {
   entryPoints: [
     '../src/index.ts',
-    '../src/collection/index.ts',
-    '../src/objects/index.ts',
-    '../src/arrays/index.ts',
-    '../src/statistics/index.ts',
-    '../src/strings/index.ts',
-    '../src/numbers/index.ts',
-    '../src/functions/index.ts',
+    '../src/collection.ts',
+    '../src/objects.ts',
+    '../src/arrays.ts',
+    '../src/statistics.ts',
+    '../src/strings.ts',
+    '../src/numbers.ts',
+    '../src/functions.ts',
   ],
   platform: 'browser',
   bundle: true,
@@ -23,7 +23,7 @@ const commonConfig: BuildOptions = {
   tsconfig: '../tsconfig.json',
 };
 
-async function main() {
+async function compile() {
   await Promise.all([
     build({
       ...commonConfig,
@@ -44,13 +44,13 @@ async function main() {
   // Read files again
   const builtFiles = [
     'index.js',
-    'arrays/index.js',
-    'collection/index.js',
-    'objects/index.js',
-    'statistics/index.js',
-    'strings/index.js',
-    'numbers/index.js',
-    'functions/index.js',
+    'arrays.js',
+    'collection.js',
+    'objects.js',
+    'statistics.js',
+    'strings.js',
+    'numbers.js',
+    'functions.js',
   ];
 
   console.log();
@@ -71,4 +71,6 @@ async function main() {
   console.log();
 }
 
-main();
+async function copyPackageJson() {}
+
+compile();

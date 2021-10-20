@@ -1,12 +1,12 @@
 lockfileVersion: 5.3
 
 specifiers:
-  all-of-just: ^0.0.9
+  all-of-just: 0.0.10
   typescript: ^4.4.3
   vite: ^2.6.7
 
 dependencies:
-  all-of-just: 0.0.9
+  all-of-just: 0.0.10
 
 devDependencies:
   typescript: 4.4.3
@@ -14,8 +14,8 @@ devDependencies:
 
 packages:
 
-  /all-of-just/0.0.9:
-    resolution: {integrity: sha512-MVkeWCGsYlM/0DgsBoGF/VgwwqDqUHekNAxAUZ4PXBrl6BUW/XsltggiuJ7ljiev3F3Z/L0WWKNoNeTA2qPLXA==}
+  /all-of-just/0.0.10:
+    resolution: {integrity: sha512-1EbgMUMtF+eJvJRLPXUsRpwKjD5td+GG3yrZ/eTxkFTmQA/ihJKzk01HovVc+Q+4RoaP3sENVNYNlQyHXO8jgw==}
     dev: false
 
   /esbuild-android-arm64/0.13.4:

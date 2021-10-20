@@ -1,7 +1,10 @@
 {
   "name": "all-of-just",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "A single collection of all of Just utility functions in one single library",
+  "files": [
+    "dist/"
+  ],
   "sideEffects": false,
   "main": "dist/index.cjs",
   "module": "dist/index.js",
@@ -13,47 +16,47 @@
       "import": "./dist/index.js",
       "require": "./dist/index.cjs"
     },
-    "./array": {
-      "types": "./dist/arrays/index.d.ts",
-      "module": "./dist/arrays/index.js",
-      "import": "./dist/arrays/index.js",
-      "require": "./dist/arrays/index.cjs"
+    "./arrays": {
+      "types": "./dist/arrays.d.ts",
+      "module": "./dist/arrays.js",
+      "import": "./dist/arrays.js",
+      "require": "./dist/arrays.cjs"
     },
     "./collection": {
-      "types": "./dist/collection/index.d.ts",
-      "module": "./dist/collection/index.js",
-      "import": "./dist/collection/index.js",
-      "require": "./dist/collection/index.cjs"
+      "types": "./dist/collection.d.ts",
+      "module": "./dist/collection.js",
+      "import": "./dist/collection.js",
+      "require": "./dist/collection/.cjs"
     },
     "./functions": {
-      "types": "./dist/functions/index.d.ts",
-      "module": "./dist/functions/index.js",
-      "import": "./dist/functions/index.js",
-      "require": "./dist/functions/index.cjs"
+      "types": "./dist/functions.d.ts",
+      "module": "./dist/functions.js",
+      "import": "./dist/functions.js",
+      "require": "./dist/functions.cjs"
     },
     "./numbers": {
-      "types": "./dist/numbers/index.d.ts",
-      "module": "./dist/numbers/index.js",
-      "import": "./dist/numbers/index.js",
-      "require": "./dist/numbers/index.cjs"
+      "types": "./dist/numbers.d.ts",
+      "module": "./dist/numbers.js",
+      "import": "./dist/numbers.js",
+      "require": "./dist/numbers.cjs"
     },
     "./objects": {
-      "types": "./dist/objects/index.d.ts",
-      "module": "./dist/objects/index.js",
-      "import": "./dist/objects/index.js",
-      "require": "./dist/objects/index.cjs"
+      "types": "./dist/objects.d.ts",
+      "module": "./dist/objects.js",
+      "import": "./dist/objects.js",
+      "require": "./dist/objects.cjs"
     },
     "./statistics": {
-      "types": "./dist/statistics/index.d.ts",
-      "module": "./dist/statistics/index.js",
-      "import": "./dist/statistics/index.js",
-      "require": "./dist/statistics/index.cjs"
+      "types": "./dist/statistics.d.ts",
+      "module": "./dist/statistics.js",
+      "import": "./dist/statistics.js",
+      "require": "./dist/statistics.cjs"
     },
     "./strings": {
-      "types": "./dist/strings/index.d.ts",
-      "module": "./dist/strings/index.js",
-      "import": "./dist/strings/index.js",
-      "require": "./dist/strings/index.cjs"
+      "types": "./dist/strings.d.ts",
+      "module": "./dist/strings.js",
+      "import": "./dist/strings.js",
+      "require": "./dist/strings.cjs"
     }
   },
   "scripts": {
