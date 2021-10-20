@@ -7,8 +7,6 @@ specifiers:
   '@types/node': ^16.10.3
   '@types/prettier': ^2.4.1
   '@types/rimraf': ^3.0.2
-  brotli-size: ^4.0.0
-  esbuild: ^0.13.4
   just-camel-case: ^4.0.2
   just-capitalize: ^1.0.1
   just-cartesian-product: ^1.0.2
@@ -180,8 +178,6 @@ devDependencies:
   '@types/node': 16.10.3
   '@types/prettier': 2.4.1
   '@types/rimraf': 3.0.2
-  brotli-size: 4.0.0
-  esbuild: 0.13.4
   prettier: 2.4.1
   rimraf: 3.0.2
   rollup: 2.58.0
@@ -301,13 +297,6 @@ packages:
       concat-map: 0.0.1
     dev: true
 
-  /brotli-size/4.0.0:
-    resolution: {integrity: sha512-uA9fOtlTRC0iqKfzff1W34DXUA3GyVqbUaeo3Rw3d4gd1eavKVCETXrn3NzO74W+UVkG3UHu8WxUi+XvKI/huA==}
-    engines: {node: '>= 10.16.0'}
-    dependencies:
-      duplexer: 0.1.1
-    dev: true
-
   /builtin-modules/3.2.0:
     resolution: {integrity: sha512-lGzLKcioL90C7wMczpkY0n/oART3MbBa8R9OFGE1rJxoVI86u4WAGfEk8Wjv10eKSyTHVGkSo3bvBylCEtk7LA==}
     engines: {node: '>=6'}
@@ -324,10 +313,6 @@ packages:
   /deepmerge/4.2.2:
     resolution: {integrity: sha512-FJ3UgI4gIl+PHZm53knsuSFpE+nESMr7M4v9QcgB7S63Kj/6WqMiFQJpBBYz1Pt+66bZpP3Q7Lye0Oo9MPKEdg==}
     engines: {node: '>=0.10.0'}
-    dev: true
-
-  /duplexer/0.1.1:
-    resolution: {integrity: sha1-rOb/gIwc5mtX0ev5eXessCM0z8E=}
     dev: true
 
   /esbuild-android-arm64/0.13.4:
