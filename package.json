@@ -1,6 +1,6 @@
 {
   "name": "all-of-just",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A single collection of all of Just utility functions in one single library",
   "files": [
     "dist"
@@ -8,6 +8,7 @@
   "sideEffects": false,
   "main": "dist/index.cjs",
   "module": "dist/index.js",
+  "types": "dist/index.d.ts",
   "exports": {
     ".": {
       "default": "./dist/index.js",

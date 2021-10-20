@@ -16,6 +16,6 @@
     "vite": "^2.6.7"
   },
   "dependencies": {
-    "all-of-just": "^0.0.1"
+    "all-of-just": "^0.0.2"
   }
 }
