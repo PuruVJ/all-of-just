@@ -5,9 +5,46 @@
   "files": [
     "dist"
   ],
-  "main": "index.js",
-  "types": "./dist/",
+  "sideEffects": false,
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "exports": {
+    ".": {
+      "default": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./array": {
+      "default": "./dist/arrays.js",
+      "require": "./dist/arrays.cjs"
+    },
+    "./collection": {
+      "default": "./dist/collection.js",
+      "require": "./dist/collection.cjs"
+    },
+    "./functions": {
+      "default": "./dist/functions.js",
+      "require": "./dist/functions.cjs"
+    },
+    "./numbers": {
+      "default": "./dist/numbers.js",
+      "require": "./dist/numbers.cjs"
+    },
+    "./objects": {
+      "default": "./dist/objects.js",
+      "require": "./dist/objects.cjs"
+    },
+    "./statistics": {
+      "default": "./dist/statistics.js",
+      "require": "./dist/statistics.cjs"
+    },
+    "./strings": {
+      "default": "./dist/strings.js",
+      "require": "./dist/strings.cjs"
+    }
+  },
+  "typesVersions": {},
   "scripts": {
+    "prepublishOnly": "pnpm build",
     "build": "cd scripts && tsm compile.ts && cd .. && tsc"
   },
   "keywords": [

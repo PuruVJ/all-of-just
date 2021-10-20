@@ -3,7 +3,16 @@ import { promises as fsp } from 'fs';
 import { sync } from 'brotli-size';
 
 const commonConfig: BuildOptions = {
-  entryPoints: ['../src/index.ts', '../src/collection.ts', '../src/objects.ts'],
+  entryPoints: [
+    '../src/index.ts',
+    '../src/collection.ts',
+    '../src/objects.ts',
+    '../src/arrays.ts',
+    '../src/statistics.ts',
+    '../src/strings.ts',
+    '../src/numbers.ts',
+    '../src/functions.ts',
+  ],
   platform: 'browser',
   bundle: true,
   minify: true,
