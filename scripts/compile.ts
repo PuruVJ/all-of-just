@@ -93,7 +93,10 @@ async function modifyIndexDTS() {
     'utf-8'
   );
 }
-
-await compile();
-modifyIndexDTS();
-await movePackageJson();
+try {
+  await compile();
+  await modifyIndexDTS();
+  await movePackageJson();
+} catch (error) {
+  console.log(error);
+}
