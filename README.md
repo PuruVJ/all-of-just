@@ -269,7 +269,7 @@ import {
 
 # Source of truth
 
-`all-of-just` doesn't have any original code of its own. It export the different `just-*` packages as it os without adding any logic in between. And I intend to keep it that way. That way, this library is just a proxy to the original just library, which makes sure that `just` is improved regularly, and by extension, `all-of-just` too.
+`all-of-just` doesn't have any original code of its own. It export the different `just-*` packages as it is without adding any logic in between. And I intend to keep it that way. That way, this library is just a proxy to the original just library, which makes sure that `just` is improved regularly, and by extension, `all-of-just` too.
 
 # Roadmap
 
@@ -294,3 +294,5 @@ However, the best contribution would be to improve the `Just` library. That will
 # LICENSE
 
 [MIT Licensed](./LICENSE.txt)
+
+&copy; [Puru Vijay](https://twitter.com/puruvjdev)
