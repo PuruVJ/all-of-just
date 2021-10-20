@@ -83,15 +83,14 @@ async function movePackageJson() {
 }
 
 async function modifyIndexDTS() {
-  const indexDTSFile = await fsp.readFile('../dist/index.d.ts', 'utf-8');
+  const dtsFiles = (await fsp.readdir('../dist/')).filter((name) => name.endsWith('.d.ts'));
 
   const justModuleDeclarations = await makeDeclarationFile();
 
-  await fsp.writeFile(
-    '../dist/index.d.ts',
-    justModuleDeclarations + '\n\n' + indexDTSFile,
-    'utf-8'
-  );
+  for (const file of dtsFiles) {
+    const fileContents = await fsp.readFile(`../dist/${file}`, 'utf-8');
+    fsp.writeFile(`../dist/${file}`, justModuleDeclarations + '\n\n' + fileContents, 'utf-8');
+  }
 }
 try {
   await compile();
