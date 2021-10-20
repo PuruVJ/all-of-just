@@ -1,6 +1,6 @@
 {
   "name": "all-of-just",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A single collection of all of Just utility functions in one single library",
   "files": [
     "dist"
@@ -11,42 +11,34 @@
   "types": "dist/index.d.ts",
   "exports": {
     ".": {
-      "default": "./dist/index.js",
       "import": "./dist/index.js",
       "require": "./dist/index.cjs"
     },
     "./array": {
-      "default": "./dist/arrays.js",
       "import": "./dist/arrays.js",
       "require": "./dist/arrays.cjs"
     },
     "./collection": {
-      "default": "./dist/collection.js",
       "import": "./dist/collection.js",
       "require": "./dist/collection.cjs"
     },
     "./functions": {
-      "default": "./dist/functions.js",
       "import": "./dist/functions.js",
       "require": "./dist/functions.cjs"
     },
     "./numbers": {
-      "default": "./dist/numbers.js",
       "import": "./dist/numbers.js",
       "require": "./dist/numbers.cjs"
     },
     "./objects": {
-      "default": "./dist/objects.js",
       "import": "./dist/objects.js",
       "require": "./dist/objects.cjs"
     },
     "./statistics": {
-      "default": "./dist/statistics.js",
       "import": "./dist/statistics.js",
       "require": "./dist/statistics.cjs"
     },
     "./strings": {
-      "default": "./dist/strings.js",
       "import": "./dist/strings.js",
       "require": "./dist/strings.cjs"
     }
