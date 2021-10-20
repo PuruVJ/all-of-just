@@ -1,7 +1,7 @@
 <script lang="ts">
   import logo from './assets/svelte.png';
   import Counter from './lib/Counter.svelte';
-  import { arraysShuffle } from 'all-of-just/arrays';
+  import {} from 'all-of-just';
 
   console.log(arraysShuffle([1, 2, 3, 4, 5, 6, 7]));
 </script>

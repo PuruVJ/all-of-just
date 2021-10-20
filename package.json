@@ -1,6 +1,6 @@
 {
   "name": "all-of-just",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A single collection of all of Just utility functions in one single library",
   "files": [
     "dist"
@@ -15,32 +15,32 @@
       "require": "./dist/index.cjs"
     },
     "./array": {
-      "import": "./dist/arrays.js",
-      "require": "./dist/arrays.cjs"
+      "import": "./dist/arrays/index.js",
+      "require": "./dist/arrays/index.cjs"
     },
     "./collection": {
-      "import": "./dist/collection.js",
-      "require": "./dist/collection.cjs"
+      "import": "./dist/collection/index.js",
+      "require": "./dist/collection/index.cjs"
     },
     "./functions": {
-      "import": "./dist/functions.js",
-      "require": "./dist/functions.cjs"
+      "import": "./dist/functions/index.js",
+      "require": "./dist/functions/index.cjs"
     },
     "./numbers": {
-      "import": "./dist/numbers.js",
-      "require": "./dist/numbers.cjs"
+      "import": "./dist/numbers/index.js",
+      "require": "./dist/numbers/index.cjs"
     },
     "./objects": {
-      "import": "./dist/objects.js",
-      "require": "./dist/objects.cjs"
+      "import": "./dist/objects/index.js",
+      "require": "./dist/objects/index.cjs"
     },
     "./statistics": {
-      "import": "./dist/statistics.js",
-      "require": "./dist/statistics.cjs"
+      "import": "./dist/statistics/index.js",
+      "require": "./dist/statistics/index.cjs"
     },
     "./strings": {
-      "import": "./dist/strings.js",
-      "require": "./dist/strings.cjs"
+      "import": "./dist/strings/index.js",
+      "require": "./dist/strings/index.cjs"
     }
   },
   "scripts": {
