@@ -49,5 +49,3 @@ export async function makeDeclarationFile() {
 
   return str;
 }
-
-makeDeclarationFile();

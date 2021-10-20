@@ -43,7 +43,12 @@ async function movePackageJson() {
 
   targetPkgJson.private = false;
 
-  await fsp.writeFile('../dist/package.json', JSON.stringify(targetPkgJson, null, 2));
+  fsp.writeFile('../dist/package.json', JSON.stringify(targetPkgJson, null, 2));
+}
+
+async function moveREADME() {
+  const readmeContents = await fsp.readFile('../README.md', 'utf-8');
+  fsp.writeFile('../dist/README.md', readmeContents);
 }
 
 async function modifyIndexDTS() {
@@ -60,6 +65,7 @@ try {
   await compile();
   await modifyIndexDTS();
   await movePackageJson();
+  await moveREADME();
 } catch (error) {
   console.log(error);
 }
