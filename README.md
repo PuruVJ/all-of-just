@@ -26,7 +26,11 @@ When you install `all-of-just`, you're not downloading all the `just-*` packages
 
 ## Assumptions
 
-Original library was made in 2016. The scene at that time was very different from what is now. Then, with bundlers like webpack, you couldn't afford to use big libraries, hence why the original library is divided in so many small packages.
+1. **You bring your own bundler and minifier** - This library is not optimized for direct use in browsers. it is spread over multiple files, and non-minified, and overall not ideal for direct usage in browser. It is recommended to have bundler/minifier toolchain set up to optimize and tree-shake this library.
+
+2. **Using next gen bundler** - This one is not as critical for final performance, but it can greatly affect your developer experience
+
+The original library was made in 2016. The scene at that time was very different from what is now. Then, with bundlers like webpack, you couldn't afford to use big libraries, hence why the original library is divided in so many small packages.
 
 Now, we have tools like [Vite](https://vitejs.dev/), [Snowpack](https://www.snowpack.dev/), [WMR](https://wmr.dev/), which offer blazing fast compilation and Hot Module Reloading, and overall just super great dev experience. You could throw dependencies in the magnitudes of megabytes and your dev experience will still be blazing fast 🔥🔥.
 
@@ -262,3 +266,31 @@ import {
   throttle,
 } from 'all-of-just/functions';
 ```
+
+# Source of truth
+
+`all-of-just` doesn't have any original code of its own. It export the different `just-*` packages as it os without adding any logic in between. And I intend to keep it that way. That way, this library is just a proxy to the original just library, which makes sure that `just` is improved regularly, and by extension, `all-of-just` too.
+
+# Roadmap
+
+This package is right now in the 0.x range. This is gonna stay that way until every single package of `Just` library gets robust support for **TypeScript**. One of `all-of-just`'s main goal is achieve perfect TypeScript support, and that is not possible without `Just` getting full TypeScript support.
+
+# TypeScript Support
+
+1. This package has TypeScript definition for some packages, but is lacking for most of them at the time of writing.
+
+2. Some of the packaged that do have TypeScript support export more than the function, they export some additional types/functions too. However, to keep `all-of-just` simple, we don't export those types/functions. You'll need to install that package separately and import from it.
+
+`Just` package maintainer is looking for contributors to add TypeScript definitions to the existing `packages`. By helping `just` get better at TypeScript, you'll be indirectly making `all-of-just` better too 🔥🔥.
+
+[MORE INFO](https://github.com/angus-c/just#typescript-)
+
+# Contributing
+
+Because this project depends on `Just` directly, and doesn't add anything of it's own, the only contribution we need is to fix this README file in case of typos/incorrect code example.
+
+However, the best contribution would be to improve the `Just` library. That will automatically improve `all-of-just` too 😊
+
+# LICENSE
+
+[MIT Licensed](./LICENSE.txt)
