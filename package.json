@@ -1,14 +1,14 @@
 {
   "name": "all-of-just",
   "private": true,
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "A single collection of all of Just utility functions in one single library",
   "files": [
     "*"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/puruvj/all-of-us.git"
+    "url": "git+https://github.com/puruvj/all-of-just.git"
   },
   "bugs": {
     "url": "https://github.com/puruvj/all-of-just/issues"
