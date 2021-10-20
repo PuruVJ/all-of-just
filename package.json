@@ -1,6 +1,6 @@
 {
   "name": "all-of-just",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "A single collection of all of Just utility functions in one single library",
   "files": [
     "dist/"
@@ -11,34 +11,50 @@
   "types": "dist/index.d.ts",
   "exports": {
     ".": {
+      "types": "./dist/index.d.ts",
+      "module": "./dist/index.js",
       "import": "./dist/index.js",
       "require": "./dist/index.cjs"
     },
     "./array": {
+      "types": "./dist/arrays/index.d.ts",
+      "module": "./dist/arrays/index.js",
       "import": "./dist/arrays/index.js",
       "require": "./dist/arrays/index.cjs"
     },
     "./collection": {
+      "types": "./dist/collection/index.d.ts",
+      "module": "./dist/collection/index.js",
       "import": "./dist/collection/index.js",
       "require": "./dist/collection/index.cjs"
     },
     "./functions": {
+      "types": "./dist/functions/index.d.ts",
+      "module": "./dist/functions/index.js",
       "import": "./dist/functions/index.js",
       "require": "./dist/functions/index.cjs"
     },
     "./numbers": {
+      "types": "./dist/numbers/index.d.ts",
+      "module": "./dist/numbers/index.js",
       "import": "./dist/numbers/index.js",
       "require": "./dist/numbers/index.cjs"
     },
     "./objects": {
+      "types": "./dist/objects/index.d.ts",
+      "module": "./dist/objects/index.js",
       "import": "./dist/objects/index.js",
       "require": "./dist/objects/index.cjs"
     },
     "./statistics": {
+      "types": "./dist/statistics/index.d.ts",
+      "module": "./dist/statistics/index.js",
       "import": "./dist/statistics/index.js",
       "require": "./dist/statistics/index.cjs"
     },
     "./strings": {
+      "types": "./dist/strings/index.d.ts",
+      "module": "./dist/strings/index.js",
       "import": "./dist/strings/index.js",
       "require": "./dist/strings/index.cjs"
     }
