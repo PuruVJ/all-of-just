@@ -1,75 +1,40 @@
-import { sync } from 'brotli-size';
-import { build, BuildOptions } from 'esbuild';
-import { promises as fsp, readFile } from 'fs';
+import commonjs from '@rollup/plugin-commonjs';
+import nodeResolve from '@rollup/plugin-node-resolve';
+import typescript from '@rollup/plugin-typescript';
+import { promises as fsp } from 'fs';
+import { rollup } from 'rollup';
 import pkg from '../package.json';
 import { makeDeclarationFile } from './make-declarations';
 
-const commonConfig: BuildOptions = {
-  entryPoints: [
-    '../src/index.ts',
-    '../src/collection.ts',
-    '../src/objects.ts',
-    '../src/arrays.ts',
-    '../src/statistics.ts',
-    '../src/strings.ts',
-    '../src/numbers.ts',
-    '../src/functions.ts',
-  ],
-  platform: 'node',
-  bundle: true,
-  sourcemap: true,
-  treeShaking: true,
-  target: 'esnext',
-  outdir: '../dist/',
-  tsconfig: '../tsconfig.json',
-};
-
 async function compile() {
-  await Promise.all([
-    build({
-      ...commonConfig,
-      format: 'esm',
-      outExtension: {
-        '.js': '.js',
-      },
-    }),
-    build({
-      ...commonConfig,
-      format: 'cjs',
-      outExtension: {
-        '.js': '.cjs',
-      },
-    }),
-  ]);
+  const rolled = await rollup({
+    input: [
+      '../src/index.ts',
+      '../src/collection.ts',
+      '../src/objects.ts',
+      '../src/arrays.ts',
+      '../src/statistics.ts',
+      '../src/strings.ts',
+      '../src/numbers.ts',
+      '../src/functions.ts',
+    ],
 
-  // Read files again
-  const builtFiles = [
-    'index.js',
-    'arrays.js',
-    'collection.js',
-    'objects.js',
-    'statistics.js',
-    'strings.js',
-    'numbers.js',
-    'functions.js',
-  ];
+    plugins: [commonjs(), nodeResolve(), typescript({ tsconfig: '../tsconfig.json' })],
+  });
 
-  console.log();
-
-  const table = await Promise.all(
-    builtFiles.map(async (file) => {
-      const size = (sync(await fsp.readFile(`../dist/${file}`)) / 1024).toFixed(2);
-
-      return {
-        file: file.replace('/index.js', ''),
-        size: size + ' KB',
-      };
-    })
-  );
-
-  console.table(table);
-
-  console.log();
+  rolled.write({
+    format: 'esm',
+    dir: '../dist/',
+    minifyInternalExports: true,
+    sourcemap: true,
+  });
+  rolled.write({
+    format: 'cjs',
+    entryFileNames: '[name].[format]',
+    dir: '../dist/',
+    minifyInternalExports: true,
+    sourcemap: true,
+  });
 }
 
 async function movePackageJson() {
