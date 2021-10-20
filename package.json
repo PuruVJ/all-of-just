@@ -1,6 +1,6 @@
 {
   "name": "all-of-just",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "A single collection of all of Just utility functions in one single library",
   "files": [
     "dist/"
@@ -65,9 +65,7 @@
     "esbuild": "^0.13.4",
     "rimraf": "^3.0.2",
     "tsm": "^2.1.2",
-    "typescript": "^4.4.3"
-  },
-  "dependencies": {
+    "typescript": "^4.4.3",
     "just-camel-case": "^4.0.2",
     "just-capitalize": "^1.0.1",
     "just-cartesian-product": "^1.0.2",

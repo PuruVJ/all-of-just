@@ -1,7 +1,3 @@
-import App from './App.svelte'
+import { shuffle } from 'all-of-just/arrays';
 
-const app = new App({
-  target: document.getElementById('app')
-})
-
-export default app
+console.log(shuffle([1, 2, 3, 4, 5, 6, 7, 8, 9]));
