@@ -55,10 +55,15 @@ async function modifyIndexDTS() {
   const dtsFiles = (await fsp.readdir('../dist/')).filter((name) => name.endsWith('.d.ts'));
 
   const justModuleDeclarations = await makeDeclarationFile();
+  await fsp.writeFile('../dist/just.d.ts', justModuleDeclarations);
 
   for (const file of dtsFiles) {
     const fileContents = await fsp.readFile(`../dist/${file}`, 'utf-8');
-    fsp.writeFile(`../dist/${file}`, justModuleDeclarations + '\n\n' + fileContents, 'utf-8');
+    fsp.writeFile(
+      `../dist/${file}`,
+      `/// <reference path="./just.d.ts" />` + '\n\n' + fileContents,
+      'utf-8'
+    );
   }
 }
 

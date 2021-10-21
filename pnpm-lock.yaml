@@ -4,7 +4,7 @@ specifiers:
   '@rollup/plugin-commonjs': ^21.0.1
   '@rollup/plugin-node-resolve': ^13.0.6
   '@rollup/plugin-typescript': ^8.3.0
-  '@types/node': ^16.10.3
+  '@types/node': ^16.11.1
   '@types/prettier': ^2.4.1
   '@types/rimraf': ^3.0.2
   just-camel-case: ^4.0.2
@@ -175,7 +175,7 @@ devDependencies:
   '@rollup/plugin-commonjs': 21.0.1_rollup@2.58.0
   '@rollup/plugin-node-resolve': 13.0.6_rollup@2.58.0
   '@rollup/plugin-typescript': 8.3.0_937b027edc6bd00c4da867df42fb955d
-  '@types/node': 16.10.3
+  '@types/node': 16.11.1
   '@types/prettier': 2.4.1
   '@types/rimraf': 3.0.2
   prettier: 2.4.1
@@ -258,15 +258,15 @@ packages:
     resolution: {integrity: sha512-ZUxbzKl0IfJILTS6t7ip5fQQM/J3TJYubDm3nMbgubNNYS62eXeUpoLUC8/7fJNiFYHTrGPQn7hspDUzIHX3UA==}
     dependencies:
       '@types/minimatch': 3.0.5
-      '@types/node': 16.10.3
+      '@types/node': 16.11.1
     dev: true
 
   /@types/minimatch/3.0.5:
     resolution: {integrity: sha512-Klz949h02Gz2uZCMGwDUSDS1YBlTdDDgbWHi+81l29tQALUtvz4rAYi5uoVhE5Lagoq6DeqAUlbrHvW/mXDgdQ==}
     dev: true
 
-  /@types/node/16.10.3:
-    resolution: {integrity: sha512-ho3Ruq+fFnBrZhUYI46n/bV2GjwzSkwuT4dTf0GkuNFmnb8nq4ny2z9JEVemFi6bdEJanHLlYfy9c6FN9B9McQ==}
+  /@types/node/16.11.1:
+    resolution: {integrity: sha512-PYGcJHL9mwl1Ek3PLiYgyEKtwTMmkMw4vbiyz/ps3pfdRYLVv+SN7qHVAImrjdAXxgluDEw6Ph4lyv+m9UpRmA==}
     dev: true
 
   /@types/prettier/2.4.1:
@@ -276,14 +276,14 @@ packages:
   /@types/resolve/1.17.1:
     resolution: {integrity: sha512-yy7HuzQhj0dhGpD8RLXSZWEkLsV9ibvxvi6EiJ3bkqLAO1RGo0WbkWQiwpRlSFymTJRz0d3k5LM3kkx8ArDbLw==}
     dependencies:
-      '@types/node': 16.10.3
+      '@types/node': 16.11.1
     dev: true
 
   /@types/rimraf/3.0.2:
     resolution: {integrity: sha512-F3OznnSLAUxFrCEu/L5PY8+ny8DtcFRjx7fZZ9bycvXRi3KPTRS9HOitGZwvPg0juRhXFWIeKX58cnX5YqLohQ==}
     dependencies:
       '@types/glob': 7.2.0
-      '@types/node': 16.10.3
+      '@types/node': 16.11.1
     dev: true
 
   /balanced-match/1.0.2:
