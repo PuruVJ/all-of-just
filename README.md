@@ -22,7 +22,7 @@ This library(`all-of-just`) strives to give a similar experience, at no added co
 
 ## Installation size?
 
-When you install `all-of-just`, you're not downloading all the `just-*` packages, which along with their packaged `package.json` and `README.md` can be quite big when downloaded all at once. Rather, `all-of-just` bundles all of them together into a few JS files, along with proper TypeScript types. Your machine downloads no more than `110KB` while installing this library(In future, the size will be halved right when we drops CommonJS support 🙂)
+When you install `all-of-just`, you're not downloading all the `just-*` packages, which along with their packaged `package.json` and `README.md` can be quite big when downloaded all at once. Rather, `all-of-just` bundles all of them together into a few JS files, along with proper TypeScript types. Your machine downloads no more than `160KB` while installing this library(In future, the size will be halved right when we drops CommonJS support 🙂)
 
 ## Assumptions
 
