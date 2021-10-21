@@ -8,37 +8,41 @@ import { makeDeclarationFile } from './make-declarations';
 
 async function compile() {
   try {
-    await fsp.mkdir("../dist");
+    await fsp.mkdir('../dist');
   } catch {}
 
-  const rolled = await rollup({
-    input: [
-      '../src/index.ts',
-      '../src/collection.ts',
-      '../src/objects.ts',
-      '../src/arrays.ts',
-      '../src/statistics.ts',
-      '../src/strings.ts',
-      '../src/numbers.ts',
-      '../src/functions.ts',
-    ],
+  const inputFiles = [
+    '../src/index.ts',
+    '../src/collection.ts',
+    '../src/objects.ts',
+    '../src/arrays.ts',
+    '../src/statistics.ts',
+    '../src/strings.ts',
+    '../src/numbers.ts',
+    '../src/functions.ts',
+  ];
 
-    plugins: [commonjs(), nodeResolve(), typescript({ tsconfig: '../tsconfig.json' })],
-  });
+  for (const inputFile of inputFiles) {
+    const rolled = await rollup({
+      input: inputFile,
 
-  rolled.write({
-    format: 'esm',
-    dir: '../dist/',
-    minifyInternalExports: true,
-    sourcemap: true,
-  });
-  rolled.write({
-    format: 'cjs',
-    entryFileNames: '[name].[format]',
-    dir: '../dist/',
-    minifyInternalExports: true,
-    sourcemap: true,
-  });
+      plugins: [commonjs(), nodeResolve(), typescript({ tsconfig: '../tsconfig.json' })],
+    });
+
+    rolled.write({
+      format: 'esm',
+      dir: '../dist/',
+      minifyInternalExports: true,
+      sourcemap: true,
+    });
+    rolled.write({
+      format: 'cjs',
+      entryFileNames: '[name].[format]',
+      dir: '../dist/',
+      minifyInternalExports: true,
+      sourcemap: true,
+    });
+  }
 }
 
 async function movePackageJson() {
