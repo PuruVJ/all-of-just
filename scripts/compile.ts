@@ -9,7 +9,7 @@ import { makeDeclarationFile } from './make-declarations';
 async function compile() {
   try {
     await fsp.mkdir("../dist");
-  } catch (e) {}
+  } catch {}
 
   const rolled = await rollup({
     input: [
