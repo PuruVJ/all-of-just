@@ -61,6 +61,7 @@ async function modifyIndexDTS() {
     fsp.writeFile(`../dist/${file}`, justModuleDeclarations + '\n\n' + fileContents, 'utf-8');
   }
 }
+
 try {
   await compile();
   await modifyIndexDTS();
