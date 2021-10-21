@@ -7,6 +7,10 @@ import pkg from '../package.json';
 import { makeDeclarationFile } from './make-declarations';
 
 async function compile() {
+  try {
+    await fsp.mkdir("../dist");
+  } catch {}
+
   const rolled = await rollup({
     input: [
       '../src/index.ts',
