@@ -148,7 +148,7 @@ import {
   // Numbers module
   numbersClamp,
   numbersModulo,
-  numbersPrime,
+  numbersIsPrime,
   // Functions modules
   functionsCompose,
   functionsCurry,
@@ -250,7 +250,7 @@ import {
   truncate,
 } from 'all-of-just/strings';
 
-import { clamp, modulo, prime } from 'all-of-just/numbers';
+import { clamp, modulo, isPrime } from 'all-of-just/numbers';
 
 import {
   compose,

@@ -74,7 +74,7 @@ export { default as stringsReplaceAll } from 'just-replace-all';
 
 /** NUMBERS */
 export { default as numbersClamp } from 'just-clamp';
-export { default as numbersPrime } from 'just-is-prime';
+export { default as numbersIsPrime } from 'just-is-prime';
 export { default as numbersModulo } from 'just-modulo';
 
 /** FUNCTIONS */
