@@ -130,7 +130,7 @@ import {
   statisticsMode,
   statisticsPercentile,
   statisticsSkewness,
-  statisticsStdev,
+  statisticsStandardDeviation,
   statisticsVariance,
   // Strings module
   stringsCamelCase,
@@ -233,7 +233,15 @@ import {
   zip,
 } from 'all-of-just/arrays';
 
-import { mean, median, mode, percentile, skewness, stdev, variance } from 'all-of-just/statistics';
+import {
+  mean,
+  median,
+  mode,
+  percentile,
+  skewness,
+  standardDeviation,
+  variance,
+} from 'all-of-just/statistics';
 
 import {
   camelCase,

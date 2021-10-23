@@ -4,7 +4,7 @@ specifiers:
   '@rollup/plugin-commonjs': ^21.0.1
   '@rollup/plugin-node-resolve': ^13.0.6
   '@rollup/plugin-typescript': ^8.3.0
-  '@types/node': ^16.11.2
+  '@types/node': ^16.11.4
   '@types/prettier': ^2.4.1
   '@types/rimraf': ^3.0.2
   just-camel-case: ^5.0.0
@@ -37,13 +37,13 @@ specifiers:
   just-is-primitive: ^1.1.0
   just-kebab-case: ^3.0.0
   just-last: ^2.2.0
-  just-left-pad: ^2.1.0
+  just-left-pad: ^2.2.0
   just-map-keys: ^1.1.0
   just-map-object: ^1.2.0
   just-map-values: ^2.0.0
   just-mean: ^1.1.0
   just-median: ^1.0.3
-  just-memoize: ^1.1.0
+  just-memoize: ^1.2.0
   just-memoize-last: ^2.0.0
   just-merge: ^2.0.0
   just-mode: ^1.0.0
@@ -73,7 +73,7 @@ specifiers:
   just-split: ^2.2.1
   just-split-at: ^2.2.0
   just-squash: ^1.1.0
-  just-stdev: ^1.0.0
+  just-standard-deviation: ^1.0.0
   just-tail: ^2.2.0
   just-template: ^1.2.0
   just-throttle: ^3.0.0
@@ -123,13 +123,13 @@ dependencies:
   just-is-primitive: 1.1.0
   just-kebab-case: 3.0.0
   just-last: 2.2.0
-  just-left-pad: 2.1.0
+  just-left-pad: 2.2.0
   just-map-keys: 1.1.0
   just-map-object: 1.2.0
   just-map-values: 2.0.0
   just-mean: 1.1.0
   just-median: 1.0.3
-  just-memoize: 1.1.0
+  just-memoize: 1.2.0
   just-memoize-last: 2.0.0
   just-merge: 2.0.0
   just-mode: 1.0.0
@@ -159,7 +159,7 @@ dependencies:
   just-split: 2.2.1
   just-split-at: 2.2.0
   just-squash: 1.1.0
-  just-stdev: 1.0.0
+  just-standard-deviation: 1.0.0
   just-tail: 2.2.0
   just-template: 1.2.0
   just-throttle: 3.0.0
@@ -175,7 +175,7 @@ devDependencies:
   '@rollup/plugin-commonjs': 21.0.1_rollup@2.58.0
   '@rollup/plugin-node-resolve': 13.0.6_rollup@2.58.0
   '@rollup/plugin-typescript': 8.3.0_11969cb7979bf76fd37eb17f863ea3c2
-  '@types/node': 16.11.2
+  '@types/node': 16.11.4
   '@types/prettier': 2.4.1
   '@types/rimraf': 3.0.2
   prettier: 2.4.1
@@ -269,8 +269,8 @@ packages:
     resolution: {integrity: sha512-PYGcJHL9mwl1Ek3PLiYgyEKtwTMmkMw4vbiyz/ps3pfdRYLVv+SN7qHVAImrjdAXxgluDEw6Ph4lyv+m9UpRmA==}
     dev: true
 
-  /@types/node/16.11.2:
-    resolution: {integrity: sha512-w34LtBB0OkDTs19FQHXy4Ig/TOXI4zqvXS2Kk1PAsRKZ0I+nik7LlMYxckW0tSNGtvWmzB+mrCTbuEjuB9DVsw==}
+  /@types/node/16.11.4:
+    resolution: {integrity: sha512-TMgXmy0v2xWyuCSCJM6NCna2snndD8yvQF67J29ipdzMcsPa9u+o0tjF5+EQNdhcuZplYuouYqpc4zcd5I6amQ==}
     dev: true
 
   /@types/prettier/2.4.1:
@@ -659,8 +659,8 @@ packages:
     resolution: {integrity: sha512-eiojOKi7GYzc44H0vwrlPtr3nZ38omyQLG2JcwMjoWeEdmIk7ZRosHxlfKqGyqe2NhFHtdcDdUQuog3/qHcBzw==}
     dev: false
 
-  /just-left-pad/2.1.0:
-    resolution: {integrity: sha512-WSukTkJ3XI5DwrCqYjOO8+ij+QtatushOrQiDdo1LbbD4x9s+d0tBlFmndvjG4C/uEbmy987naQOpNU2K+7IgQ==}
+  /just-left-pad/2.2.0:
+    resolution: {integrity: sha512-ODd2/fO8tGEDKzUIVuv10xpoUa6w2v0HFSiLIdcKItNIdvHNvndhbYWZsrDLecOU89OtljqtdlsQa1WgttBKyw==}
     dev: false
 
   /just-map-keys/1.1.0:
@@ -687,8 +687,8 @@ packages:
     resolution: {integrity: sha512-vpjI/+UzKVLrII7fRGauwXlFcEbbWsKbfPhjrQlD1FP4xBMmzhRhAKRyxe2Af+k5wZ8qIAugDZXzhvWWSLdihw==}
     dev: false
 
-  /just-memoize/1.1.0:
-    resolution: {integrity: sha512-ALigWyjMjGqN0CHLBLCZpi6DatXQ60wLIsaZc7OxH6kdFUC/4nIjyqPUmozQ74augLvLmvJDHa1CCPzqD7oVnA==}
+  /just-memoize/1.2.0:
+    resolution: {integrity: sha512-NRkf0Y1ljtu2z5xOmfq6XMC9v+tCGwshAujD2uw2waf5rMOU520j/SgX13LF6paZVDEe/kvCquKxvc9nF9w0wg==}
     dev: false
 
   /just-merge/2.0.0:
@@ -803,8 +803,8 @@ packages:
     resolution: {integrity: sha512-FgKicpsrYDibEyXZUbdj6ivrhe7RLsEPZL+avUfQRsrnoh7Lzpeu8uXmuf28S3Elk8EfhkBaLMDTjiu+GTVqeA==}
     dev: false
 
-  /just-stdev/1.0.0:
-    resolution: {integrity: sha512-shcADFCZxe+JhOm/2YC3ds2sMA7xAK9UNt5b3la7jWkVDW6IJc553mkB9RIsVlX3hIhyaHsSLwyJlQCozN9A9w==}
+  /just-standard-deviation/1.0.0:
+    resolution: {integrity: sha512-58BRQubJGt5fHNSL2uq8LHitmWpgPW/gNm7W0/8w29qDVh4VuR+p+e8VY+8vgDLoM5QOwbXEExAH2EQKDKpPCg==}
     dev: false
 
   /just-tail/2.2.0:

@@ -55,7 +55,7 @@ export { default as statisticsMedian } from 'just-median';
 export { default as statisticsMode } from 'just-mode';
 export { default as statisticsPercentile } from 'just-percentile';
 export { default as statisticsVariance } from 'just-variance';
-export { default as statisticsStdev } from 'just-stdev';
+export { default as statisticsStandardDeviation } from 'just-standard-deviation';
 export { default as statisticsSkewness } from 'just-skewness';
 
 /** STRINGS */
