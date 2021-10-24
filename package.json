@@ -1,7 +1,7 @@
 {
   "name": "all-of-just",
   "private": true,
-  "version": "0.6.0",
+  "version": "0.7.0",
   "description": "A single collection of all of Just utility functions in one single library",
   "files": [
     "*"
@@ -17,6 +17,10 @@
   "main": "index.cjs",
   "module": "index.js",
   "types": "index.d.ts",
+  "scripts": {
+    "pub": "pnpm build && cd dist && pnpm publish",
+    "build": "rimraf ./dist/**/* && tsc && rollup -c && cd scripts && tsm compile.ts"
+  },
   "exports": {
     ".": {
       "types": "./index.d.ts",
@@ -66,10 +70,6 @@
       "import": "./strings.js",
       "require": "./strings.cjs"
     }
-  },
-  "scripts": {
-    "pub": "pnpm build && cd dist && pnpm publish",
-    "build": "rimraf ./dist/**/* && tsc && cd scripts && tsm compile.ts"
   },
   "keywords": [
     "just",
