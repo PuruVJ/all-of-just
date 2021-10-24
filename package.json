@@ -19,7 +19,7 @@
   "types": "index.d.ts",
   "scripts": {
     "pub": "pnpm build && cd dist && pnpm publish",
-    "build": "rimraf ./dist/**/* && tsc && rollup -c && cd scripts && tsm post.ts"
+    "build": "cd scripts && tsm cleandir.ts && cd .. && tsc && rollup -c && cd scripts && tsm post.ts"
   },
   "exports": {
     ".": {
@@ -90,7 +90,6 @@
     "@types/prettier": "^2.4.1",
     "@types/rimraf": "^3.0.2",
     "prettier": "^2.4.1",
-    "rimraf": "^3.0.2",
     "rollup": "^2.58.0",
     "tslib": "^2.3.1",
     "tsm": "^2.1.2",

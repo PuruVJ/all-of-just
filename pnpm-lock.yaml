@@ -85,7 +85,6 @@ specifiers:
   just-variance: ^1.0.0
   just-zip-it: ^2.1.0
   prettier: ^2.4.1
-  rimraf: ^3.0.2
   rollup: ^2.58.0
   tslib: ^2.3.1
   tsm: ^2.1.2
@@ -179,7 +178,6 @@ devDependencies:
   '@types/prettier': 2.4.1
   '@types/rimraf': 3.0.2
   prettier: 2.4.1
-  rimraf: 3.0.2
   rollup: 2.58.0
   tslib: 2.3.1
   tsm: 2.1.2
@@ -258,15 +256,11 @@ packages:
     resolution: {integrity: sha512-ZUxbzKl0IfJILTS6t7ip5fQQM/J3TJYubDm3nMbgubNNYS62eXeUpoLUC8/7fJNiFYHTrGPQn7hspDUzIHX3UA==}
     dependencies:
       '@types/minimatch': 3.0.5
-      '@types/node': 16.11.1
+      '@types/node': 16.11.4
     dev: true
 
   /@types/minimatch/3.0.5:
     resolution: {integrity: sha512-Klz949h02Gz2uZCMGwDUSDS1YBlTdDDgbWHi+81l29tQALUtvz4rAYi5uoVhE5Lagoq6DeqAUlbrHvW/mXDgdQ==}
-    dev: true
-
-  /@types/node/16.11.1:
-    resolution: {integrity: sha512-PYGcJHL9mwl1Ek3PLiYgyEKtwTMmkMw4vbiyz/ps3pfdRYLVv+SN7qHVAImrjdAXxgluDEw6Ph4lyv+m9UpRmA==}
     dev: true
 
   /@types/node/16.11.4:
@@ -280,14 +274,14 @@ packages:
   /@types/resolve/1.17.1:
     resolution: {integrity: sha512-yy7HuzQhj0dhGpD8RLXSZWEkLsV9ibvxvi6EiJ3bkqLAO1RGo0WbkWQiwpRlSFymTJRz0d3k5LM3kkx8ArDbLw==}
     dependencies:
-      '@types/node': 16.11.1
+      '@types/node': 16.11.4
     dev: true
 
   /@types/rimraf/3.0.2:
     resolution: {integrity: sha512-F3OznnSLAUxFrCEu/L5PY8+ny8DtcFRjx7fZZ9bycvXRi3KPTRS9HOitGZwvPg0juRhXFWIeKX58cnX5YqLohQ==}
     dependencies:
       '@types/glob': 7.2.0
-      '@types/node': 16.11.1
+      '@types/node': 16.11.4
     dev: true
 
   /balanced-match/1.0.2:
@@ -890,13 +884,6 @@ packages:
     dependencies:
       is-core-module: 2.7.0
       path-parse: 1.0.7
-    dev: true
-
-  /rimraf/3.0.2:
-    resolution: {integrity: sha512-JZkJMZkAGFFPP2YqXZXPbMlMBgsxzE8ILs4lMIX/2o0L9UBw9O/Y3o6wFw/i9YLapcUJWwqbi3kdxIPdC62TIA==}
-    hasBin: true
-    dependencies:
-      glob: 7.2.0
     dev: true
 
   /rollup/2.58.0:
