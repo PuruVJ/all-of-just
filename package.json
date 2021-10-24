@@ -19,7 +19,7 @@
   "types": "index.d.ts",
   "scripts": {
     "pub": "pnpm build && cd dist && pnpm publish",
-    "build": "rimraf ./dist/**/* && tsc && rollup -c && cd scripts && tsm compile.ts"
+    "build": "rimraf ./dist/**/* && tsc && rollup -c && cd scripts && tsm post.ts"
   },
   "exports": {
     ".": {
