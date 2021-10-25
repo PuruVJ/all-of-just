@@ -16,13 +16,13 @@ Why? The way we use the functions from the original library is by doing an `npm 
 
 1. **Install only once**: Only have to install once, means less trips to terminal, meaning less context switching, and small `package.json` and lock files.
 
-2. **VSCode Auto import fully supported**: In today's world of VSCode auto import, opening terminal, typing `npm install just-[FUNCTION NAME]`, then coming back to code, and manually typing the imports is less than ideal. Auto import, on the other hand, has spoiled us us really bad 😁. By having this monolithic pattern, you stay in code editor, you don't even have to go up to type imports, the function is available right there for you 🪄🪄
+2. **VSCode Auto import fully supported**: In today's world of VSCode auto import, opening terminal, typing `npm install just-[FUNCTION NAME]`, then coming back to code, and manually typing the imports is less than ideal. Auto import, on the other hand, has spoiled us really bad 😁. By having this monolithic pattern, you stay in code editor, you don't even have to go up to type imports, the function is available right there for you 🪄🪄
 
 This library(`all-of-just`) strives to give a similar experience, at no added cost.
 
 ## Installation size?
 
-When you install `all-of-just`, you're not downloading all the `just-*` packages, which along with their packaged `package.json` and `README.md` can be quite big when downloaded all at once. Rather, `all-of-just` bundles all of them together into a few JS files, along with proper TypeScript types. Your machine downloads no more than `160KB` while installing this library(In future, the size will be halved right when we drops CommonJS support 🙂)
+When you install `all-of-just`, you're not downloading all the `just-*` packages, which along with their packaged `package.json` and `README.md` can be quite big when downloaded all at once. Rather, `all-of-just` bundles all of them together into a few JS files, along with proper TypeScript types. Your machine downloads no more than `100KB` while installing this library(In future, the size will be halved right when we drop CommonJS support 🙂)
 
 ## Assumptions
 
@@ -188,8 +188,8 @@ Available modules:
 import { clone, compare, diff, diffApply, flush, pluck } from 'all-of-just/collection';
 
 import {
-  circular,
-  empty,
+  isCircular,
+  isEmpty,
   entries,
   extend,
   filterObject,
@@ -202,7 +202,7 @@ import {
   objectsTypeof,
   omit,
   pick,
-  primitive,
+  isPrimitive,
   reduceObject,
   safeGet,
   safeSet,
