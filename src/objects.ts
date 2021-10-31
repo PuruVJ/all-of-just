@@ -1,10 +1,10 @@
 export { default as extend } from 'just-extend';
 export { default as merge } from 'just-merge';
-export { values as values } from 'just-values';
+export { default as values } from 'just-values';
 /** Need TS Types */
 export { default as entries } from 'just-entries';
 export { default as pick } from 'just-pick';
-export { omit as omit } from 'just-omit';
+export { default as omit } from 'just-omit';
 export { default as filterObject } from 'just-filter-object';
 export { default as mapObject } from 'just-map-object';
 export { default as mapValues } from 'just-map-values';

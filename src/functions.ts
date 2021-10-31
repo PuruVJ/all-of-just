@@ -8,4 +8,4 @@ export { default as memoize } from 'just-memoize';
 export { default as memoizeLast } from 'just-memoize-last';
 export { default as random } from 'just-random';
 export { default as throttle } from 'just-throttle';
-export { once } from 'just-once';
+export { default as once } from 'just-once';

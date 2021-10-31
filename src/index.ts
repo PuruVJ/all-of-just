@@ -9,10 +9,10 @@ export { default as collectionFlush } from 'just-flush';
 /** OBJECTS */
 export { default as objectsExtend } from 'just-extend';
 export { default as objectsMerge } from 'just-merge';
-export { values as objectsValues } from 'just-values';
+export { default as objectsValues } from 'just-values';
 export { default as objectsEntries } from 'just-entries';
 export { default as objectsPick } from 'just-pick';
-export { omit as objectsOmit } from 'just-omit';
+export { default as objectsOmit } from 'just-omit';
 export { default as objectsFilterObject } from 'just-filter-object';
 export { default as objectsMapObject } from 'just-map-object';
 export { default as objectsMapValues } from 'just-map-values';
@@ -88,4 +88,4 @@ export { default as functionsMemoize } from 'just-memoize';
 export { default as functionsMemoizeLast } from 'just-memoize-last';
 export { default as functionsRandom } from 'just-random';
 export { default as functionsThrottle } from 'just-throttle';
-export { once as functionsOnce } from 'just-once';
+export { default as functionsOnce } from 'just-once';

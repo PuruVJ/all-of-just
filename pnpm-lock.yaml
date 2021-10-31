@@ -8,11 +8,11 @@ specifiers:
   '@types/prettier': ^2.4.1
   '@types/rimraf': ^3.0.2
   just-camel-case: ^5.0.0
-  just-capitalize: ^2.0.0
+  just-capitalize: ^2.1.0
   just-cartesian-product: ^1.0.2
   just-clamp: ^3.2.1
   just-clone: ^4.0.0
-  just-compact: ^2.2.0
+  just-compact: ^2.3.0
   just-compare: ^1.4.0
   just-compose: ^1.1.0
   just-curry-it: ^4.0.0
@@ -23,38 +23,38 @@ specifiers:
   just-entries: ^1.1.0
   just-extend: ^5.0.0
   just-filter-object: ^2.0.0
-  just-flatten-it: ^4.0.0
+  just-flatten-it: ^4.1.0
   just-flip: ^1.1.0
   just-flip-object: ^1.1.0
   just-flush: ^1.1.0
-  just-group-by: ^1.1.1
-  just-index: ^3.0.0
-  just-insert: ^2.2.1
-  just-intersect: ^3.2.0
+  just-group-by: ^1.2.0
+  just-index: ^3.1.0
+  just-insert: ^2.3.0
+  just-intersect: ^3.3.0
   just-is-circular: ^1.1.0
   just-is-empty: ^2.0.1
   just-is-prime: ^1.1.1
   just-is-primitive: ^1.1.0
   just-kebab-case: ^3.0.0
-  just-last: ^2.2.0
+  just-last: ^2.3.0
   just-left-pad: ^2.2.0
   just-map-keys: ^1.1.0
   just-map-object: ^1.2.0
-  just-map-values: ^2.0.0
-  just-mean: ^1.1.0
-  just-median: ^1.0.3
+  just-map-values: ^2.1.0
+  just-mean: ^1.2.0
+  just-median: ^1.1.0
   just-memoize: ^1.2.0
   just-memoize-last: ^2.0.0
   just-merge: ^2.0.0
-  just-mode: ^1.0.0
+  just-mode: ^1.1.0
   just-modulo: ^1.2.1
-  just-omit: ^1.2.0
-  just-once: ^1.2.0
-  just-partial-it: ^2.1.1
-  just-partition: ^1.2.0
+  just-omit: ^1.3.0
+  just-once: ^1.3.0
+  just-partial-it: ^2.1.2
+  just-partition: ^1.3.0
   just-pascal-case: ^2.0.0
-  just-percentile: ^1.0.1
-  just-permutations: ^1.0.1
+  just-percentile: ^2.0.0
+  just-permutations: ^1.1.0
   just-pick: ^3.0.0
   just-pluck-it: ^1.2.0
   just-prune: ^1.1.0
@@ -62,18 +62,18 @@ specifiers:
   just-range: ^3.0.0
   just-reduce-object: ^1.1.0
   just-remove: ^2.1.1
-  just-replace-all: ^1.0.0
+  just-replace-all: ^1.1.0
   just-right-pad: ^2.1.0
   just-safe-get: ^3.0.0
   just-safe-set: ^3.0.0
   just-shuffle: ^3.1.0
-  just-skewness: ^1.0.2
+  just-skewness: ^1.1.0
   just-snake-case: ^2.0.0
   just-sort-by: ^2.0.0
   just-split: ^2.2.1
   just-split-at: ^2.2.0
   just-squash: ^1.1.0
-  just-standard-deviation: ^1.0.0
+  just-standard-deviation: ^1.1.0
   just-tail: ^2.2.0
   just-template: ^1.2.0
   just-throttle: ^3.0.0
@@ -81,23 +81,23 @@ specifiers:
   just-typeof: ^2.0.0
   just-union: ^2.2.0
   just-unique: ^3.3.0
-  just-values: ^1.2.0
-  just-variance: ^1.0.0
-  just-zip-it: ^2.1.0
+  just-values: ^1.3.0
+  just-variance: ^1.1.0
+  just-zip-it: ^2.2.0
   prettier: ^2.4.1
   rollup: ^2.58.3
   tslib: ^2.3.1
-  tsm: ^2.1.3
+  tsm: ^2.1.4
   type-fest: ^2.5.2
   typescript: ^4.4.4
 
 dependencies:
   just-camel-case: 5.0.0
-  just-capitalize: 2.0.0
+  just-capitalize: 2.1.0
   just-cartesian-product: 1.0.2
   just-clamp: 3.2.1
   just-clone: 4.0.0
-  just-compact: 2.2.0
+  just-compact: 2.3.0
   just-compare: 1.4.0
   just-compose: 1.1.0
   just-curry-it: 4.0.0
@@ -108,38 +108,38 @@ dependencies:
   just-entries: 1.1.0
   just-extend: 5.0.0
   just-filter-object: 2.0.0
-  just-flatten-it: 4.0.0
+  just-flatten-it: 4.1.0
   just-flip: 1.1.0
   just-flip-object: 1.1.0
   just-flush: 1.1.0
-  just-group-by: 1.1.1
-  just-index: 3.0.0
-  just-insert: 2.2.1
-  just-intersect: 3.2.0
+  just-group-by: 1.2.0
+  just-index: 3.1.0
+  just-insert: 2.3.0
+  just-intersect: 3.3.0
   just-is-circular: 1.1.0
   just-is-empty: 2.0.1
   just-is-prime: 1.1.1
   just-is-primitive: 1.1.0
   just-kebab-case: 3.0.0
-  just-last: 2.2.0
+  just-last: 2.3.0
   just-left-pad: 2.2.0
   just-map-keys: 1.1.0
   just-map-object: 1.2.0
-  just-map-values: 2.0.0
-  just-mean: 1.1.0
-  just-median: 1.0.3
+  just-map-values: 2.1.0
+  just-mean: 1.2.0
+  just-median: 1.1.0
   just-memoize: 1.2.0
   just-memoize-last: 2.0.0
   just-merge: 2.0.0
-  just-mode: 1.0.0
+  just-mode: 1.1.0
   just-modulo: 1.2.1
-  just-omit: 1.2.0
-  just-once: 1.2.0
-  just-partial-it: 2.1.1
-  just-partition: 1.2.0
+  just-omit: 1.3.0
+  just-once: 1.3.0
+  just-partial-it: 2.1.2
+  just-partition: 1.3.0
   just-pascal-case: 2.0.0
-  just-percentile: 1.0.1
-  just-permutations: 1.0.1
+  just-percentile: 2.0.0
+  just-permutations: 1.1.0
   just-pick: 3.0.0
   just-pluck-it: 1.2.0
   just-prune: 1.1.0
@@ -147,18 +147,18 @@ dependencies:
   just-range: 3.0.0
   just-reduce-object: 1.1.0
   just-remove: 2.1.1
-  just-replace-all: 1.0.0
+  just-replace-all: 1.1.0
   just-right-pad: 2.1.0
   just-safe-get: 3.0.0
   just-safe-set: 3.0.0
   just-shuffle: 3.1.0
-  just-skewness: 1.0.2
+  just-skewness: 1.1.0
   just-snake-case: 2.0.0
   just-sort-by: 2.0.0
   just-split: 2.2.1
   just-split-at: 2.2.0
   just-squash: 1.1.0
-  just-standard-deviation: 1.0.0
+  just-standard-deviation: 1.1.0
   just-tail: 2.2.0
   just-template: 1.2.0
   just-throttle: 3.0.0
@@ -166,9 +166,9 @@ dependencies:
   just-typeof: 2.0.0
   just-union: 2.2.0
   just-unique: 3.3.0
-  just-values: 1.2.0
-  just-variance: 1.0.0
-  just-zip-it: 2.1.0
+  just-values: 1.3.0
+  just-variance: 1.1.0
+  just-zip-it: 2.2.0
 
 devDependencies:
   '@rollup/plugin-commonjs': 21.0.1_rollup@2.58.3
@@ -180,7 +180,7 @@ devDependencies:
   prettier: 2.4.1
   rollup: 2.58.3
   tslib: 2.3.1
-  tsm: 2.1.3
+  tsm: 2.1.4
   type-fest: 2.5.2
   typescript: 4.4.4
 
@@ -541,8 +541,8 @@ packages:
     resolution: {integrity: sha512-RsBUrhhwi+wc6x+QSUQo2gq6EAhNv7sy2h0guRcXdD5pgsDvgnKswM1N7oZKNvAd1OauI5aVJ2d4H9sfi4g3YQ==}
     dev: false
 
-  /just-capitalize/2.0.0:
-    resolution: {integrity: sha512-U1NBnAtwKoKWCPkPdI9YYMRDiT1+qolHQym+ILfRmfN9sTmS/ZWigHVHZkmje+FsJD3ZovoEkVQjbLS7R0mKqA==}
+  /just-capitalize/2.1.0:
+    resolution: {integrity: sha512-hnZrHviUzuN+hWxSawF1j9924u0Fnl4wmFSxkisadRIITs3fcoUw8PRNTYHJzvJnXBBE78h+0xAdlUXpkjlPuw==}
     dev: false
 
   /just-cartesian-product/1.0.2:
@@ -557,8 +557,8 @@ packages:
     resolution: {integrity: sha512-OGJUrmYIpjR1SKFobZAy0JixIXNm3Gsb+cx4wZTOK96eFv8g7HTy3f0KH3IoXenMM9VWQsydnSfAFJssOmSmYw==}
     dev: false
 
-  /just-compact/2.2.0:
-    resolution: {integrity: sha512-YnT403Q2T8K1MtzmFrhz3xrX8v4LIdsnMXqXVq0yHT+AJETZGET5EIoFcql09jdvnBsBXIrNWYj5Bd8wRo9hig==}
+  /just-compact/2.3.0:
+    resolution: {integrity: sha512-IWySvW766ygc7S1ohse3jgZ0/LSGBukDgE/RfHlU9IuPDtB6xv9s1cgdfPqJRxU5vMUQlAc0qcdEoBF6Z7mvEg==}
     dev: false
 
   /just-compare/1.4.0:
@@ -601,8 +601,8 @@ packages:
     resolution: {integrity: sha512-UfxefNVMhdvMi3EKaMYVFmlQeDbuvLCLRsTXBlPgB9QZIQKvFtsO9E6uJkp5ucpFOQVnPwxrFUvPtA7PVpcMtA==}
     dev: false
 
-  /just-flatten-it/4.0.0:
-    resolution: {integrity: sha512-FgC5ra8YApsozsxJGiZFEJwZEsXMAXgQFwFNWodjm6mfk9bq7hlAhTwbl+8w0fNx1geAWdttMrqD7v7Nd33dZA==}
+  /just-flatten-it/4.1.0:
+    resolution: {integrity: sha512-gxmNc2T0ES8EOxp/R8bePIvCDdd3E5ALgwsgBhTWLggShnlm5THSAJdAO53JQJTcwfpfYn6BnD3x0BgChGHomg==}
     dev: false
 
   /just-flip-object/1.1.0:
@@ -617,20 +617,20 @@ packages:
     resolution: {integrity: sha512-NY3rXwXBNR/8KCV1xU6FfFWLlNty3U0RpEMpt2rPQlEQfNi8UmDzh1W9obIWWBfV6JrnjrSPVXOTyfxlTqx9hA==}
     dev: false
 
-  /just-group-by/1.1.1:
-    resolution: {integrity: sha512-6ibuFrVhs73uPgN3hgfsS9wWAs18KFd85OOnnopNGcPr1fyI7Xl22XAxWUz6/lKd0NvArpqPkIjOIi3jS7SwPA==}
+  /just-group-by/1.2.0:
+    resolution: {integrity: sha512-8RDcXGrY2K3Yu+TJlXXgHOO45YEZFouBi2WeFtJJOfCaVrDCMQANLRPBXlL6VduWJzUK0aZzmbVHH0hJTOjAtA==}
     dev: false
 
-  /just-index/3.0.0:
-    resolution: {integrity: sha512-G1Q5GwWrJ9PLxSglwUiMAiwLvKNnaOpdNMFQI8n3MsMuf0KMRHvycoLgvApbHERbyt4eJhjhC9+Pix6u2QmLlA==}
+  /just-index/3.1.0:
+    resolution: {integrity: sha512-IjjPxqRln1hHBW2T6o8Ggtvc0DxmBWUmUzasEMOt4F3gq/MV2mb+LpbxKoPEvGkCWSSmBuwXAk7PKiMhVYnugw==}
     dev: false
 
-  /just-insert/2.2.1:
-    resolution: {integrity: sha512-RQjHDpZj60gA3v/mXMPgcSMVHcesZRtWgoWa0lToG9//8Ov27t9JUVZnOi59Tk58jjvfxXHfAg0sTtyhDXbkLQ==}
+  /just-insert/2.3.0:
+    resolution: {integrity: sha512-FtWf9PcXWnZ8F5F5SDV3zFc5aZc4Z321IHjHR5bgsIhONa0R7yKP3mPV5zQVDkNrjFVTQrxobWZKfVKiFTRizg==}
     dev: false
 
-  /just-intersect/3.2.0:
-    resolution: {integrity: sha512-kx/uIY9RgMQQrlvDYl+Z0VDLp0bXp5G2tb+x/SBdh7TWfVBVLhGAS1z3gYUa58+adFYI7KzRwRii5fCyhli6NA==}
+  /just-intersect/3.3.0:
+    resolution: {integrity: sha512-xKVZXnRUxn08rCWn1sp1Vjc3aAqswaRumaRuBcXrjZijuAVTj8/cTLfTDRh2l+APzIN6k5kZ+WJ039OeIRj8+g==}
     dev: false
 
   /just-is-circular/1.1.0:
@@ -653,8 +653,8 @@ packages:
     resolution: {integrity: sha512-iUbauuMLQOjnwTxHSEBFJl4U9B1HdDHEOeAdeZhvodqhJ8xbMGlbYo/IPo6OXjD1yTIHGhE6SdwwafzpaFuAoQ==}
     dev: false
 
-  /just-last/2.2.0:
-    resolution: {integrity: sha512-eiojOKi7GYzc44H0vwrlPtr3nZ38omyQLG2JcwMjoWeEdmIk7ZRosHxlfKqGyqe2NhFHtdcDdUQuog3/qHcBzw==}
+  /just-last/2.3.0:
+    resolution: {integrity: sha512-9YhQcLYvqMi+fiWSRt+z56Gh6QPm9YfyOrMJ/rmKgvfTZCIj1xEOlurOtXr+2ud7hemAeyXAjjTwFi9N5M+zeQ==}
     dev: false
 
   /just-left-pad/2.2.0:
@@ -669,16 +669,16 @@ packages:
     resolution: {integrity: sha512-OwZKmPmG/+DGPK9vJsVp4HvC3uAcpqeSH4UmlaIQd3QmssNjeegMiLO1sbVadGTA/rkiSszcN1Ie0ZQlkwSzKw==}
     dev: false
 
-  /just-map-values/2.0.0:
-    resolution: {integrity: sha512-J2XTnJY0QxeGBZ1x4xkiBzFdT5xixOZAFDhbyDb4+3my/ltNcCGedZRDduWwvVhe5v1XPa3hbAFBRtcgobVSDQ==}
+  /just-map-values/2.1.0:
+    resolution: {integrity: sha512-GXex9HvLmF/0A8NrIYp+zgJufym97nhRwKZ8DnzgVx95XL/Tf7/HmuPOE94yaUVMrtlJ17zo9WaUSC6nEug2yw==}
     dev: false
 
-  /just-mean/1.1.0:
-    resolution: {integrity: sha512-vc+p5eiGRd2a9XILp57XcnaS8h+VXFYKLbEgBv4tm2jgPgEWvGDxKzFSxnjFUNglsWEvu0wSoyTvV5AW07YP7g==}
+  /just-mean/1.2.0:
+    resolution: {integrity: sha512-9kGCaLPwwbj3M3Z6LZ2/FjRfZzSdt83CHZgKy19pgOAYiWgeUyl+PZ2CpclpT5A/2M7Ub6Khe/kjZTTQS4gjPQ==}
     dev: false
 
-  /just-median/1.0.3:
-    resolution: {integrity: sha512-p8tI138yJEs/LIf7hmfqr4CesiG1lgufsnWaHjshkBjLTTFHhToizDxPGFOBwMQ53DAKsJXr+mMm3iFr3nBbwA==}
+  /just-median/1.1.0:
+    resolution: {integrity: sha512-amNEGw86sxbgT8TuSw5m89PeQZ/O+AGWM5iGDLWE7+vqdIIBTf6/8m7gW8wwDp6Ne5UG08o28jNhrIg2kIzKiQ==}
     dev: false
 
   /just-memoize-last/2.0.0:
@@ -693,40 +693,40 @@ packages:
     resolution: {integrity: sha512-wtJlHg6qLp+3Wv2GfTeL2XKKXRcU7HNIz2m2GbsKxhY3KVzZ6jaSI1s+prWz4Kc3H6fCpzT55C9y9wSvmG5Lqw==}
     dev: false
 
-  /just-mode/1.0.0:
-    resolution: {integrity: sha512-8PXCKYAvSUF10QV/3UVnmuuwUVyprI0QtA1/32zQiJ/CYqlBFkWsStSDw5rmQOohKWTk0eJtqwQjaZKNjbdAyg==}
+  /just-mode/1.1.0:
+    resolution: {integrity: sha512-lHKIX6/T1cuXXzzXJPFWFpORGXmrtH/HOcFuL6QImDg18iVRiYsJm0a3w4OCiP//1cEFksnSNSnKXxDn7kpazQ==}
     dev: false
 
   /just-modulo/1.2.1:
     resolution: {integrity: sha512-at6Pj21ZvDNF+rZpvLCLeOJR1j0U34o9TeRUfGiz/WNAghiMNIfCk9vqTP0rXV84iquA4TypQEbsWz0nuYq3Gw==}
     dev: false
 
-  /just-omit/1.2.0:
-    resolution: {integrity: sha512-vI0b+PUE2PRtVs1k3Ky2gk2VN51vnQ9tuHnItqpwXLNmur365LnuNkXe/L3ghls63gDxAfx25A/xPRuVRgym1Q==}
+  /just-omit/1.3.0:
+    resolution: {integrity: sha512-9jVz5uEJtessOnGYmT5Dw1Mw2pKK5FwcDbJbi999aKjuCf2lAWBlaoFzuy4crZZoMvrhA/wXwVsvpkf1Yps9Iw==}
     dev: false
 
-  /just-once/1.2.0:
-    resolution: {integrity: sha512-k+3NNr5ueOiuzlKMN4Q9y2PwlhX0ILChEbx04HcrWEdt3+tcuoVYLqjuqO+v7VI0CbvC4EY7QQKb8ihpHlO3fw==}
+  /just-once/1.3.0:
+    resolution: {integrity: sha512-SZ7LXruZhxktUIwRN4Kuwlx03mnitezCRJWUTOSvMJ1zA2ugB1s0RETyZlmypQagjru0LhyFuKb5/BrHiU0wBA==}
     dev: false
 
-  /just-partial-it/2.1.1:
-    resolution: {integrity: sha512-5K3M2sKyPRHIv7VCKdD76wQgaUEqmeiD6Uv28Bx3lRYJj+JuxNn8V2j79wYhs2jfvAStPBEJCcUi/Up7en4VUQ==}
+  /just-partial-it/2.1.2:
+    resolution: {integrity: sha512-irbsxQokyLchtKDw0MFK7sdSvoN21Jj3l4G1kRs/YAOezZ9wrqmldjD6huiZkyUuVxRfZmN+OeBToXDQTQRzJg==}
     dev: false
 
-  /just-partition/1.2.0:
-    resolution: {integrity: sha512-Gy4KYCD0O0PUpTE3duFe/8blHxUiq3yXGqWwzQ6sVOAHtLt6z36FDE81HsfTYFZhJ9ukcIGDO8ROlIqbJSdHqg==}
+  /just-partition/1.3.0:
+    resolution: {integrity: sha512-wLzWz+emnd7Z0vutl2rBKfstdFV6iAuOHnLo58LxFP5H68sUR60z5RnmYnIOpLP5oQ+1dN95cxpzlpAtQrWrVw==}
     dev: false
 
   /just-pascal-case/2.0.0:
     resolution: {integrity: sha512-3ZviMwaYVAdnzsgb/LC1HXvTZdqqlkNzyRLi2Rw6xdPFb4WVqgErH0N3GjJ2lzSy/m7f8j8N+VjKXCl69N9A7A==}
     dev: false
 
-  /just-percentile/1.0.1:
-    resolution: {integrity: sha512-gSwVylmFKl8yUhxMj/kPNsen5McL8yZoBq33xhB/WHfM6c9ZJighjsRbZ0tOlYmyrhMhS1m8jhtfybzcnUlOKg==}
+  /just-percentile/2.0.0:
+    resolution: {integrity: sha512-cjHF9UQtx/zGC2gdxt1QWOQptQz20Dkt8x1Ec62vfM1z2TYIwnAeTFqi1xKDYSExaVd37he+w+1dw3t91EQhIg==}
     dev: false
 
-  /just-permutations/1.0.1:
-    resolution: {integrity: sha512-ZgEh/SjTr89Z8SpjnjQLGiYI2XcZAXqJTj7m6MQAXOO8uUER2w0kJYX+oTjEOd0uBBxg4k3mH4JIDloYVdTf+g==}
+  /just-permutations/1.1.0:
+    resolution: {integrity: sha512-AJ8F6JRTs5sNNGwQVicvLMyBx2Pi7mQ7vsv09hIlRdw8IgeyO0Bj0paW2bX9rrLGwDd9KuifDmB4+FAvH1ARYw==}
     dev: false
 
   /just-pick/3.0.0:
@@ -757,8 +757,8 @@ packages:
     resolution: {integrity: sha512-7botyqw8IDD52fCHevzQ9m4MaC2CCPq/63c8a4tsHCwNh9Qw6DNhfO3XnyfxRurSJNRs3Co7fvF6HIHV6cInSg==}
     dev: false
 
-  /just-replace-all/1.0.0:
-    resolution: {integrity: sha512-5MXg2hnrLXB1J0NSigas4DxUwK7gs6jEHFt5F+dPTYFZcgZipexcjR25FKa14FPlxHMDG2/FIfEoP72tPqrgqA==}
+  /just-replace-all/1.1.0:
+    resolution: {integrity: sha512-uW66myKDfi8l3EvoqI2V0aPW+AKdhXc5Oq0rQZ9hqJDz4Tjr+YosFIrzqev7PaCw6PpvB5W9mni1ZPXeVLzBbw==}
     dev: false
 
   /just-right-pad/2.1.0:
@@ -777,8 +777,8 @@ packages:
     resolution: {integrity: sha512-bN6NYWMGAwhydU0BIAcEBh37W4kdn/CUrXtDuetyqOLesxm+66HyoZHII8zg+WWXsNTuyfGQKkW1eNAlqRLksQ==}
     dev: false
 
-  /just-skewness/1.0.2:
-    resolution: {integrity: sha512-thtWyIennrOCPVYvwjRKnnlIdrqRCCgGzsaaSkXWwCJrwiwOED3VRUfuFhx/wwENxTgYSKy21yvgf9ATMt7iSw==}
+  /just-skewness/1.1.0:
+    resolution: {integrity: sha512-ruVsak+Uj2ZZZPZvEtOWryvv9o1mhQTugxJf4j8XnuOlTJ/fgPPpxUHkfGjvOff5oNyRlzCtKh0YB/snU2vSZg==}
     dev: false
 
   /just-snake-case/2.0.0:
@@ -801,8 +801,8 @@ packages:
     resolution: {integrity: sha512-FgKicpsrYDibEyXZUbdj6ivrhe7RLsEPZL+avUfQRsrnoh7Lzpeu8uXmuf28S3Elk8EfhkBaLMDTjiu+GTVqeA==}
     dev: false
 
-  /just-standard-deviation/1.0.0:
-    resolution: {integrity: sha512-58BRQubJGt5fHNSL2uq8LHitmWpgPW/gNm7W0/8w29qDVh4VuR+p+e8VY+8vgDLoM5QOwbXEExAH2EQKDKpPCg==}
+  /just-standard-deviation/1.1.0:
+    resolution: {integrity: sha512-pbO0e3ikXtjvsQHOgpBZ11y3lV6TVfJIBG6j/yK9T7IfMCaqBldvOPAkYD9LL+KG35+lgmlp6/Ce5AcpLC2afg==}
     dev: false
 
   /just-tail/2.2.0:
@@ -833,16 +833,16 @@ packages:
     resolution: {integrity: sha512-v4XPUCMFZqLU1xCOcJBP5q51wo0xfYw/lWUR0gWjI9wgXZ9/P4x/TNoINmPDtELqb0ZmML45puvZh2AL1hjH+Q==}
     dev: false
 
-  /just-values/1.2.0:
-    resolution: {integrity: sha512-HoY2AgVuAFWowGBYXbv4iMW6SSpEf0BeVWkB6WTCnPu3W0e6xeLAk+KcmYSeqBSrB8j4ABQXnzFDwzVIW+GkVw==}
+  /just-values/1.3.0:
+    resolution: {integrity: sha512-Angugn6s/b+4Pb6YQf6dAdPPwQ5xWwUTp1vdr19SrqWd49Er8eSBr9tLXehV+aIeZnxhSc2l7HOQEBeQiLJ1ag==}
     dev: false
 
-  /just-variance/1.0.0:
-    resolution: {integrity: sha512-l0l1+ekAvoR9TrbiNwLOpX9Q1XRB7J8RIdIJMt8pmqi9brz470BxbwNo6K4p6XhSwGOWI65543zKfCmkf1DsgA==}
+  /just-variance/1.1.0:
+    resolution: {integrity: sha512-KTh08ANo4uxi37a6JQ/0r9Xv8nt6orneH/uqwr5jdYvYJnUSBmvvJGMgH0j7yoGLX71YFkVz/snL/DraHlxwjw==}
     dev: false
 
-  /just-zip-it/2.1.0:
-    resolution: {integrity: sha512-+5+Gd4t/VWUpWeCM0pxUFvNdYnkIKhjQCQrLyMkVUUyMeJQwxkf/E7pih5hLui8JMRR2VpuizXqs3c3rop1URw==}
+  /just-zip-it/2.2.0:
+    resolution: {integrity: sha512-yEFQkiQiPzoS2BQvAwl89PGuahFDFmwpBGXmB/tINJBPglOJM4fjFMLNvzp460QiO8Vgkt5UtMOZ4Ep0axL+4Q==}
     dev: false
 
   /magic-string/0.25.7:
@@ -906,8 +906,8 @@ packages:
     resolution: {integrity: sha512-77EbyPPpMz+FRFRuAFlWMtmgUWGe9UOG2Z25NqCwiIjRhOf5iKGuzSe5P2w1laq+FkRy4p+PCuVkJSGkzTEKVw==}
     dev: true
 
-  /tsm/2.1.3:
-    resolution: {integrity: sha512-kz7tS1leoDeIlDbRoHahgfJlQLfl1glYX1fAf7lBuAh2Wjh0EAnDw6UwiC4PXwbpbVsWZtEG1csAZSujcIVuEQ==}
+  /tsm/2.1.4:
+    resolution: {integrity: sha512-gz1zckplzOzHdiY1HVVUoH8bl2eWxbU6uJraB31w1NQ+/kQkjix3ldYHBnWaoNnOL9q8ruS+E2Wckdcw56DzrA==}
     engines: {node: '>=12'}
     hasBin: true
     dependencies:
