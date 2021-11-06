@@ -33,9 +33,9 @@ async function modifyIndexDTS() {
 }
 
 try {
-  await modifyIndexDTS();
-  await movePackageJson();
-  await moveREADME();
+  modifyIndexDTS();
+  movePackageJson();
+  moveREADME();
 } catch (error) {
   console.log(error);
 }

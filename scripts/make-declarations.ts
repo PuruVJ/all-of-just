@@ -33,11 +33,7 @@ export async function makeDeclarationFile() {
   // Now make a the declaration file
   let str = ``;
   for (const [pkgName, dtsContents] of Object.entries(justLibDeclarations)) {
-    str += `declare module '${pkgName}' {
-  ${dtsContents.replaceAll('declare', '')}
-}
-
-`;
+    str += `declare module '${pkgName}' { ${dtsContents.replaceAll('declare', '')} }\n\n`;
   }
 
   str = prettier.format(str, {
