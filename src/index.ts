@@ -1,5 +1,5 @@
 /** COLLECTIONS */
-export { diff as collectionDiff } from 'just-diff';
+export { default as collectionDiff } from 'just-diff';
 export { diffApply as collectionDiffApply } from 'just-diff-apply';
 export { default as collectionCompare } from 'just-compare';
 export { default as collectionClone } from 'just-clone';
