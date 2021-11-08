@@ -30,7 +30,7 @@ specifiers:
   just-index: ^3.2.1
   just-insert: ^2.4.1
   just-intersect: ^3.4.1
-  just-is-circular: ^1.2.1
+  just-is-circular: ^1.3.0
   just-is-empty: ^2.1.1
   just-is-prime: ^1.2.1
   just-is-primitive: ^1.2.1
@@ -56,8 +56,8 @@ specifiers:
   just-permutations: ^1.2.1
   just-pick: ^3.1.1
   just-pluck-it: ^1.3.1
-  just-prune: ^1.2.1
-  just-random: ^2.2.1
+  just-prune: ^1.3.0
+  just-random: ^2.2.2
   just-range: ^3.1.0
   just-reduce-object: ^1.2.1
   just-remove: ^2.2.1
@@ -74,9 +74,9 @@ specifiers:
   just-squash: ^1.3.0
   just-standard-deviation: ^1.2.1
   just-tail: ^2.3.1
-  just-template: ^1.3.1
+  just-template: ^1.4.0
   just-throttle: ^3.1.1
-  just-truncate: ^1.3.1
+  just-truncate: ^1.4.0
   just-typeof: ^2.2.0
   just-union: ^2.3.1
   just-unique: ^3.4.1
@@ -115,7 +115,7 @@ dependencies:
   just-index: 3.2.1
   just-insert: 2.4.1
   just-intersect: 3.4.1
-  just-is-circular: 1.2.1
+  just-is-circular: 1.3.0
   just-is-empty: 2.1.1
   just-is-prime: 1.2.1
   just-is-primitive: 1.2.1
@@ -141,8 +141,8 @@ dependencies:
   just-permutations: 1.2.1
   just-pick: 3.1.1
   just-pluck-it: 1.3.1
-  just-prune: 1.2.1
-  just-random: 2.2.1
+  just-prune: 1.3.0
+  just-random: 2.2.2
   just-range: 3.1.0
   just-reduce-object: 1.2.1
   just-remove: 2.2.1
@@ -159,9 +159,9 @@ dependencies:
   just-squash: 1.3.0
   just-standard-deviation: 1.2.1
   just-tail: 2.3.1
-  just-template: 1.3.1
+  just-template: 1.4.0
   just-throttle: 3.1.1
-  just-truncate: 1.3.1
+  just-truncate: 1.4.0
   just-typeof: 2.2.0
   just-union: 2.3.1
   just-unique: 3.4.1
@@ -613,8 +613,8 @@ packages:
     resolution: {integrity: sha512-lb3trXgUx69SCrgLF/j0dwKODGwFtqT3anNggUYe+kttalgo268HsldABsenMSpqbt2AXup2zskeWnffeQL+ew==}
     dev: false
 
-  /just-is-circular/1.2.1:
-    resolution: {integrity: sha512-Bf8BUwWQhI4Dlg+Jnl6PcBYFGPGuD9oVvHJUEQidh9VtuXY7VskY+mEIagU/UfZh55W9HClX5QPK5eVJzni9fA==}
+  /just-is-circular/1.3.0:
+    resolution: {integrity: sha512-hzg3qJL5X/wdgH2/IKVtIZSTbfMsfygtbzBobiemQcnr4R1zyHy247RuyChACyAF0OHSEeQ/ZknvefXG560GVw==}
     dev: false
 
   /just-is-empty/2.1.1:
@@ -717,12 +717,12 @@ packages:
     resolution: {integrity: sha512-OAN+OY9WNdzaEsPflwf0v0Gqq0Lf1kYmWiik4QMZAJDKMnqYy7eMswBjNvQYB9AWyHW74syIhsMUKtImSSEUDQ==}
     dev: false
 
-  /just-prune/1.2.1:
-    resolution: {integrity: sha512-6B5Vu6bVVFQ0vSg5ei0P6lxCAw3koPamLqvIHw/UFyThL8CwVcRPEf3QSBgI6JM+NrDw0QV5nTYJO5CF6EZ+1Q==}
+  /just-prune/1.3.0:
+    resolution: {integrity: sha512-7t5+aVvcXMn/U3Fe28UxaNe+ccSbgWH9ieQ8+TSiPqWEWED0lQpO/FCuyXf2HiCZq2eNsZUD3jg6b9UxwO8Vbg==}
     dev: false
 
-  /just-random/2.2.1:
-    resolution: {integrity: sha512-rrPctbC5zsFE5a2E+6MWCJI6AXuO5K3u9HXM/vXfYylUj47ygJ3QddSrAfxtXuv+m4DcgIzwBfoixJaRTUCSsg==}
+  /just-random/2.2.2:
+    resolution: {integrity: sha512-Vi3t8+feBIfYY97DMofd9ZyVExzQ0ofWiL8hnqaEy6/aQ/xuMhqW/Ck9T/pzEI1TV6ryPzruSL1CcRyoiL/xOg==}
     dev: false
 
   /just-range/3.1.0:
@@ -789,16 +789,16 @@ packages:
     resolution: {integrity: sha512-lXgPeWeRWUUKB7P+GFeysHwBr6SxxZcLxg7ZBd1Yd0CbFoN8wZMu2J2pLhw1CHuWlDMvlf1i8ahA4tfUPZlZJg==}
     dev: false
 
-  /just-template/1.3.1:
-    resolution: {integrity: sha512-mC7z0OaJXFdXC6zLPZXU8ZBO4Dgc0hwbeiugo7YFluUmrvzW4C7op5hjFWFJMoazJfSqOEEoRKNUd6b22HVLCg==}
+  /just-template/1.4.0:
+    resolution: {integrity: sha512-PNqx2C4P2n2EGLCsV5MEk1jAP40WGzGvuxFUrFNy63yYExDmGsClEc28MeTUT2APct1Sm473zNycjntpJR3pyA==}
     dev: false
 
   /just-throttle/3.1.1:
     resolution: {integrity: sha512-YMrIKroyuJcWJeNuI0/aQ0tj+HUaYfWEimPRUutxP4yRLcat8QapSl+gNEtSWG1+06T/Wckqdkutw55btCKvGw==}
     dev: false
 
-  /just-truncate/1.3.1:
-    resolution: {integrity: sha512-VgTQG/Xx7fn9A9Ixr5eB5kk2gccjoFsOBSqKnJv2SKhgewXiQ84EQlhGADkj799fDFRf4gjhemB2uAECfLjqKw==}
+  /just-truncate/1.4.0:
+    resolution: {integrity: sha512-b7Tm67ZfUiS8kPBPEA1JfMLeiMA2l7HwuXmPThb4EUdGLhgee1S8SS9JSmtPEuB/DavYJjcKPfiPeumrmCuFNg==}
     dev: false
 
   /just-typeof/2.2.0:
