@@ -285,7 +285,7 @@ This package is right now in the 0.x range. This is gonna stay that way until ev
 
 # TypeScript Support
 
-1. This package has TypeScript definition for some packages, but is lacking for most of them at the time of writing.
+1. This package has TypeScript definition for some packages, but is lacking for a few of them at the time of writing. [Complete list here](https://github.com/angus-c/just/issues/313)
 
 2. Some of the packaged that do have TypeScript support export more than the function, they export some additional types/functions too. However, to keep `all-of-just` simple, we don't export those types/functions. You'll need to install that package separately and import from it.
 
