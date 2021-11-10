@@ -1,7 +1,7 @@
 {
   "name": "all-of-just",
   "private": true,
-  "version": "0.13.0",
+  "version": "0.13.1",
   "description": "A single collection of all of Just utility functions in one single library",
   "files": [
     "*"
@@ -15,7 +15,7 @@
   },
   "sideEffects": false,
   "main": "index.cjs",
-  "module": "index.js",
+  "module": "index.mjs",
   "types": "index.d.ts",
   "scripts": {
     "pub": "pnpm build && cd dist && pnpm publish",
@@ -24,50 +24,50 @@
   "exports": {
     ".": {
       "types": "./index.d.ts",
-      "module": "./index.js",
-      "import": "./index.js",
+      "module": "./index.mjs",
+      "import": "./index.mjs",
       "require": "./index.cjs"
     },
     "./arrays": {
       "types": "./arrays.d.ts",
-      "module": "./arrays.js",
-      "import": "./arrays.js",
+      "module": "./arrays.mjs",
+      "import": "./arrays.mjs",
       "require": "./arrays.cjs"
     },
     "./collection": {
       "types": "./collection.d.ts",
-      "module": "./collection.js",
-      "import": "./collection.js",
+      "module": "./collection.mjs",
+      "import": "./collection.mjs",
       "require": "./collection.cjs"
     },
     "./functions": {
       "types": "./functions.d.ts",
-      "module": "./functions.js",
-      "import": "./functions.js",
+      "module": "./functions.mjs",
+      "import": "./functions.mjs",
       "require": "./functions.cjs"
     },
     "./numbers": {
       "types": "./numbers.d.ts",
-      "module": "./numbers.js",
-      "import": "./numbers.js",
+      "module": "./numbers.mjs",
+      "import": "./numbers.mjs",
       "require": "./numbers.cjs"
     },
     "./objects": {
       "types": "./objects.d.ts",
-      "module": "./objects.js",
-      "import": "./objects.js",
+      "module": "./objects.mjs",
+      "import": "./objects.mjs",
       "require": "./objects.cjs"
     },
     "./statistics": {
       "types": "./statistics.d.ts",
-      "module": "./statistics.js",
-      "import": "./statistics.js",
+      "module": "./statistics.mjs",
+      "import": "./statistics.mjs",
       "require": "./statistics.cjs"
     },
     "./strings": {
       "types": "./strings.d.ts",
-      "module": "./strings.js",
-      "import": "./strings.js",
+      "module": "./strings.mjs",
+      "import": "./strings.mjs",
       "require": "./strings.cjs"
     }
   },
