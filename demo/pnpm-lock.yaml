@@ -2,7 +2,8 @@ lockfileVersion: 5.3
 
 specifiers:
   '@sveltejs/kit': next
-  all-of-just: ^0.13.0
+  all-of-just: 0.13.1
+  just-shuffle: ^4.0.0
   svelte: ^3.42.6
   svelte-check: ^2.2.6
   svelte-preprocess: ^4.9.4
@@ -10,7 +11,8 @@ specifiers:
   typescript: ^4.4.3
 
 dependencies:
-  all-of-just: 0.13.0
+  all-of-just: 0.13.1
+  just-shuffle: 4.0.0
 
 devDependencies:
   '@sveltejs/kit': 1.0.0-next.195_svelte@3.44.1
@@ -108,8 +110,8 @@ packages:
       '@types/node': 16.11.7
     dev: true
 
-  /all-of-just/0.13.0:
-    resolution: {integrity: sha512-hyECs6AUvxweL/adKROCqG5XdqE27uDbWhmoTFtEWI9o0HLbRdnSH/MYFiylPktSoV33d1CUOh1uYXXxSrr8sQ==}
+  /all-of-just/0.13.1:
+    resolution: {integrity: sha512-hUdwJHQJ4jfgRW4Lms3RTljEhJPT27mfgcKCgSju0Yio5A9oh1zmdyp2MtJr73Vwe7AK11lFay6kYidRlGqy4A==}
     dev: false
 
   /ansi-styles/4.3.0:
@@ -509,6 +511,10 @@ packages:
     resolution: {integrity: sha512-41Cifkg6e8TylSpdtTpeLVMqvSBEVzTttHvERD741+pnZ8ANv0004MRL43QKPDlK9cGvNp6NZWZUBlbGXYxxng==}
     engines: {node: '>=0.12.0'}
     dev: true
+
+  /just-shuffle/4.0.0:
+    resolution: {integrity: sha512-zzQTkYJl9R7Kmpj/5fsqqC0XXX2mYuMmaxsgpzagWG2jziFP3CvxBcZfFspD71kOfjuhBXdKKbUhGgHz5E0tgw==}
+    dev: false
 
   /kleur/4.1.4:
     resolution: {integrity: sha512-8QADVssbrFjivHWQU7KkMgptGTl6WAcSdlbBPY4uNF+mWr6DGcKrvY2w4FQJoXch7+fKMjj0dRrL75vk3k23OA==}

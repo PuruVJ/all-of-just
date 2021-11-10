@@ -18,6 +18,7 @@
   },
   "type": "module",
   "dependencies": {
-    "all-of-just": "^0.13.0"
+    "all-of-just": "0.13.1",
+    "just-shuffle": "^4.0.0"
   }
 }
