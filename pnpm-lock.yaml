@@ -8,7 +8,7 @@ specifiers:
   '@types/prettier': ^2.4.1
   just-camel-case: ^6.0.0
   just-capitalize: ^3.0.0
-  just-cartesian-product: ^4.0.0
+  just-cartesian-product: ^4.0.1
   just-clamp: ^4.0.0
   just-clone: ^5.0.0
   just-compact: ^3.0.0
@@ -29,7 +29,7 @@ specifiers:
   just-group-by: ^2.0.0
   just-index: ^4.0.0
   just-insert: ^3.0.0
-  just-intersect: ^4.0.0
+  just-intersect: ^4.0.1
   just-is-circular: ^2.0.0
   just-is-empty: ^3.1.0
   just-is-prime: ^2.0.0
@@ -37,9 +37,9 @@ specifiers:
   just-kebab-case: ^4.0.0
   just-last: ^3.0.0
   just-left-pad: ^3.0.0
-  just-map-keys: ^2.0.0
+  just-map-keys: ^2.1.0
   just-map-object: ^2.0.0
-  just-map-values: ^3.0.0
+  just-map-values: ^3.0.1
   just-mean: ^2.0.0
   just-median: ^2.0.0
   just-memoize: ^2.0.0
@@ -73,7 +73,7 @@ specifiers:
   just-split-at: ^3.0.0
   just-squash: ^2.0.0
   just-standard-deviation: ^2.0.0
-  just-tail: ^3.0.0
+  just-tail: ^3.0.1
   just-template: ^2.0.0
   just-throttle: ^4.0.0
   just-truncate: ^2.0.0
@@ -84,16 +84,16 @@ specifiers:
   just-variance: ^2.0.0
   just-zip-it: ^3.0.0
   prettier: ^2.4.1
-  rollup: ^2.59.0
+  rollup: ^2.60.0
   tslib: ^2.3.1
   tsm: ^2.1.4
-  type-fest: ^2.5.2
+  type-fest: ^2.5.3
   typescript: ^4.4.4
 
 dependencies:
   just-camel-case: 6.0.0
   just-capitalize: 3.0.0
-  just-cartesian-product: 4.0.0
+  just-cartesian-product: 4.0.1
   just-clamp: 4.0.0
   just-clone: 5.0.0
   just-compact: 3.0.0
@@ -114,7 +114,7 @@ dependencies:
   just-group-by: 2.0.0
   just-index: 4.0.0
   just-insert: 3.0.0
-  just-intersect: 4.0.0
+  just-intersect: 4.0.1
   just-is-circular: 2.0.0
   just-is-empty: 3.1.0
   just-is-prime: 2.0.0
@@ -122,9 +122,9 @@ dependencies:
   just-kebab-case: 4.0.0
   just-last: 3.0.0
   just-left-pad: 3.0.0
-  just-map-keys: 2.0.0
+  just-map-keys: 2.1.0
   just-map-object: 2.0.0
-  just-map-values: 3.0.0
+  just-map-values: 3.0.1
   just-mean: 2.0.0
   just-median: 2.0.0
   just-memoize: 2.0.0
@@ -158,7 +158,7 @@ dependencies:
   just-split-at: 3.0.0
   just-squash: 2.0.0
   just-standard-deviation: 2.0.0
-  just-tail: 3.0.0
+  just-tail: 3.0.1
   just-template: 2.0.0
   just-throttle: 4.0.0
   just-truncate: 2.0.0
@@ -170,52 +170,52 @@ dependencies:
   just-zip-it: 3.0.0
 
 devDependencies:
-  '@rollup/plugin-commonjs': 21.0.1_rollup@2.59.0
-  '@rollup/plugin-node-resolve': 13.0.6_rollup@2.59.0
-  '@rollup/plugin-typescript': 8.3.0_80f1acc233e4df93aa4e78959e046afc
+  '@rollup/plugin-commonjs': 21.0.1_rollup@2.60.0
+  '@rollup/plugin-node-resolve': 13.0.6_rollup@2.60.0
+  '@rollup/plugin-typescript': 8.3.0_15dfac413fd0241781a9fd89f988e2e5
   '@types/node': 16.11.7
   '@types/prettier': 2.4.1
   prettier: 2.4.1
-  rollup: 2.59.0
+  rollup: 2.60.0
   tslib: 2.3.1
   tsm: 2.1.4
-  type-fest: 2.5.2
+  type-fest: 2.5.3
   typescript: 4.4.4
 
 packages:
 
-  /@rollup/plugin-commonjs/21.0.1_rollup@2.59.0:
+  /@rollup/plugin-commonjs/21.0.1_rollup@2.60.0:
     resolution: {integrity: sha512-EA+g22lbNJ8p5kuZJUYyhhDK7WgJckW5g4pNN7n4mAFUM96VuwUnNT3xr2Db2iCZPI1pJPbGyfT5mS9T1dHfMg==}
     engines: {node: '>= 8.0.0'}
     peerDependencies:
       rollup: ^2.38.3
     dependencies:
-      '@rollup/pluginutils': 3.1.0_rollup@2.59.0
+      '@rollup/pluginutils': 3.1.0_rollup@2.60.0
       commondir: 1.0.1
       estree-walker: 2.0.2
       glob: 7.2.0
       is-reference: 1.2.1
       magic-string: 0.25.7
       resolve: 1.20.0
-      rollup: 2.59.0
+      rollup: 2.60.0
     dev: true
 
-  /@rollup/plugin-node-resolve/13.0.6_rollup@2.59.0:
+  /@rollup/plugin-node-resolve/13.0.6_rollup@2.60.0:
     resolution: {integrity: sha512-sFsPDMPd4gMqnh2gS0uIxELnoRUp5kBl5knxD2EO0778G1oOJv4G1vyT2cpWz75OU2jDVcXhjVUuTAczGyFNKA==}
     engines: {node: '>= 10.0.0'}
     peerDependencies:
       rollup: ^2.42.0
     dependencies:
-      '@rollup/pluginutils': 3.1.0_rollup@2.59.0
+      '@rollup/pluginutils': 3.1.0_rollup@2.60.0
       '@types/resolve': 1.17.1
       builtin-modules: 3.2.0
       deepmerge: 4.2.2
       is-module: 1.0.0
       resolve: 1.20.0
-      rollup: 2.59.0
+      rollup: 2.60.0
     dev: true
 
-  /@rollup/plugin-typescript/8.3.0_80f1acc233e4df93aa4e78959e046afc:
+  /@rollup/plugin-typescript/8.3.0_15dfac413fd0241781a9fd89f988e2e5:
     resolution: {integrity: sha512-I5FpSvLbtAdwJ+naznv+B4sjXZUcIvLLceYpITAn7wAP8W0wqc5noLdGIp9HGVntNhRWXctwPYrSSFQxtl0FPA==}
     engines: {node: '>=8.0.0'}
     peerDependencies:
@@ -223,14 +223,14 @@ packages:
       tslib: '*'
       typescript: '>=3.7.0'
     dependencies:
-      '@rollup/pluginutils': 3.1.0_rollup@2.59.0
+      '@rollup/pluginutils': 3.1.0_rollup@2.60.0
       resolve: 1.20.0
-      rollup: 2.59.0
+      rollup: 2.60.0
       tslib: 2.3.1
       typescript: 4.4.4
     dev: true
 
-  /@rollup/pluginutils/3.1.0_rollup@2.59.0:
+  /@rollup/pluginutils/3.1.0_rollup@2.60.0:
     resolution: {integrity: sha512-GksZ6pr6TpIjHm8h9lSQ8pi8BE9VeubNT0OMJ3B5uZJ8pz73NPiqOtCog/x2/QzM1ENChPKxMDhiQuRHsqc+lg==}
     engines: {node: '>= 8.0.0'}
     peerDependencies:
@@ -239,7 +239,7 @@ packages:
       '@types/estree': 0.0.39
       estree-walker: 1.0.1
       picomatch: 2.3.0
-      rollup: 2.59.0
+      rollup: 2.60.0
     dev: true
 
   /@types/estree/0.0.39:
@@ -521,8 +521,8 @@ packages:
     resolution: {integrity: sha512-fzsXFCxCtL/v89Xn9QYaLMXy+s+oqA4CW4EjRayoqPRK+8LfsVEsuDAl/tEs39VyggDTykB3YsG8Wy7gFO2tCQ==}
     dev: false
 
-  /just-cartesian-product/4.0.0:
-    resolution: {integrity: sha512-hZsA4cy2LYNeeiuGhM5jmO5garB5c3Bb2YGi0eAeraH5I2J7nbfIWfaukqDTK2cXbRSFh9whbn5I853moigw2w==}
+  /just-cartesian-product/4.0.1:
+    resolution: {integrity: sha512-E5vmnmKke0G66h0fnTtaWtamXuxDUcLxQEoUt5GrNhokDR4TBaHRJD6R3Zl2qwom/ZMIvj3S6BLnDAaA3CPjYw==}
     dev: false
 
   /just-clamp/4.0.0:
@@ -605,8 +605,8 @@ packages:
     resolution: {integrity: sha512-cUcwO4mt4JBxCcnRiKzABI7JZ2Cp5xpPqrY+DtHrc4XT643D++BLwEWtuj+HaN3+O59Ii47XQe214JxjvKGetQ==}
     dev: false
 
-  /just-intersect/4.0.0:
-    resolution: {integrity: sha512-fHLEb/jiQODtFBBco8f6KY1dcYMW9OZUEEwOqjtkoLPt9FQHUegN+raZV3gUVCPLO4LhZglVMPqWl9kcO5/glg==}
+  /just-intersect/4.0.1:
+    resolution: {integrity: sha512-J4IHB48Rta1u4k9qu5zmJWREvpxC3oOL0yWQuiX5Jy7hT9yGwJqvMSA6Av0g/rDHJXDt1Ms9AO3gAW3b4+dOPw==}
     dev: false
 
   /just-is-circular/2.0.0:
@@ -637,16 +637,16 @@ packages:
     resolution: {integrity: sha512-B1wm099Sw4EDbGl2Y+OSjSbPyWgQrVObu+ldNTwGU64ltfUC90ve1vzLVJrmtbUUP4b/mq7XEKpeOoLH5R9GIw==}
     dev: false
 
-  /just-map-keys/2.0.0:
-    resolution: {integrity: sha512-1vEsSK1QcyqZph4uNT+/CojVqnYL/HKTQg8wBspEVjixyIkJHF3I80nBDeY8X5A1jhDV7hLlAmloKhbhQ957hA==}
+  /just-map-keys/2.1.0:
+    resolution: {integrity: sha512-FlVmdQlZWwNcXUrKiCSB/knCLNcUYIGOw5ZgvG8eAmsrROT/TaW/ULZfAZbU6avWg5Tatt7h1Ntb3i9wsyoQag==}
     dev: false
 
   /just-map-object/2.0.0:
     resolution: {integrity: sha512-xk+uBBBwmKlD5JeQP0FD1bEBEM/JCt2AqrTXHpYRa2bhFamDNKeQPicxiI/4qrFY/3f9iUyY826Bl6lgeuz9Gw==}
     dev: false
 
-  /just-map-values/3.0.0:
-    resolution: {integrity: sha512-CzUDj247raHzXgIX9D42DoEzQiIh8pLKgtI5CqjBlsSuqh8iitTESqlgn0rc9k226HRMmyqnWOSy+xJXXQZ5ZQ==}
+  /just-map-values/3.0.1:
+    resolution: {integrity: sha512-3mIfXSPmYwjBdJsJqb+EtDkLpS7WukX3nOE+M6066UI0+WG9l6fdtqVXxy98HFVtINy4mjIyOe8XT5jD/DEV1Q==}
     dev: false
 
   /just-mean/2.0.0:
@@ -781,8 +781,8 @@ packages:
     resolution: {integrity: sha512-XMbEQvCHFyfZ0aqZPjZcjzuvTzMgFi1rgK2/YOFQwcD8NxnCYaWotxKRV0u8aQzJ2X76Oymi56Nfa6GIjssVvg==}
     dev: false
 
-  /just-tail/3.0.0:
-    resolution: {integrity: sha512-IvWxSPwNriy6aqTADGFC0MultwgzDOqGT8rw7OA9yBNqsRRlMn8O19Xa42tXRAO3Jszh8tjcRsIvehv7Br9smw==}
+  /just-tail/3.0.1:
+    resolution: {integrity: sha512-utCeCmiqYFBVB3I5fVMHsVKP6s9Ryijw5JREJKq64DpdZ5febB9kVLkJNMECU8YSvgCVluNMu2zmqFgJvxbuuA==}
     dev: false
 
   /just-template/2.0.0:
@@ -866,8 +866,8 @@ packages:
       path-parse: 1.0.7
     dev: true
 
-  /rollup/2.59.0:
-    resolution: {integrity: sha512-l7s90JQhCQ6JyZjKgo7Lq1dKh2RxatOM+Jr6a9F7WbS9WgKbocyUSeLmZl8evAse7y96Ae98L2k1cBOwWD8nHw==}
+  /rollup/2.60.0:
+    resolution: {integrity: sha512-cHdv9GWd58v58rdseC8e8XIaPUo8a9cgZpnCMMDGZFDZKEODOiPPEQFXLriWr/TjXzhPPmG5bkAztPsOARIcGQ==}
     engines: {node: '>=10.0.0'}
     hasBin: true
     optionalDependencies:
@@ -890,8 +890,8 @@ packages:
       esbuild: 0.13.4
     dev: true
 
-  /type-fest/2.5.2:
-    resolution: {integrity: sha512-WMbytmAs5PUTqwGJRE+WoRrD2S0bYFtHX8k4Y/1l18CG5kqA3keJud9pPQ/r30FE9n8XRFCXF9BbccHIZzRYJw==}
+  /type-fest/2.5.3:
+    resolution: {integrity: sha512-7VNmE7FlsrdcWjKbtuRuynZz96Gmf35p5DvoR2tbceNP0vd58ISx87PvUUInlhtRC49vSX6qlxEKc7AoiHRirg==}
     engines: {node: '>=12.20'}
     dev: true
 
