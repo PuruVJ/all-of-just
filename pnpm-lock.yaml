@@ -16,6 +16,7 @@ specifiers:
   just-compose: ^2.0.0
   just-curry-it: ^5.0.0
   just-debounce-it: ^3.0.0
+  just-deep-map-values: ^1.0.0
   just-demethodize: ^3.0.0
   just-diff: ^5.0.0
   just-diff-apply: ^4.0.0
@@ -101,6 +102,7 @@ dependencies:
   just-compose: 2.0.0
   just-curry-it: 5.0.0
   just-debounce-it: 3.0.0
+  just-deep-map-values: 1.0.0
   just-demethodize: 3.0.0
   just-diff: 5.0.0
   just-diff-apply: 4.0.0
@@ -551,6 +553,10 @@ packages:
 
   /just-debounce-it/3.0.0:
     resolution: {integrity: sha512-oFlSmGcXnUUy4e1LihoZAFgLqxLJ0F2ZolE+N6kXROP52IylDma89gLPUBQS0CSttAf/uaNq/EqzfaGuUnyXBQ==}
+    dev: false
+
+  /just-deep-map-values/1.0.0:
+    resolution: {integrity: sha512-rLmRYzJUOmKyDiSYdNXyyAOFdYZfjsna33BpS1ApWDWYFEsxAX2CVEi2WEdLOibrd+f+UK16fiiSO5ZJTMiKWQ==}
     dev: false
 
   /just-demethodize/3.0.0:

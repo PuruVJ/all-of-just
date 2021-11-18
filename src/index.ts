@@ -25,6 +25,7 @@ export { default as objectsSafeGet } from 'just-safe-get';
 export { default as objectsSafeSet } from 'just-safe-set';
 export { default as objectsTypeof } from 'just-typeof';
 export { default as objectsFlipObject } from 'just-flip-object';
+export { default as objectsDeepMapValues } from 'just-deep-map-values';
 
 /** ARRAYS */
 export { default as arraysCartesianProduct } from 'just-cartesian-product';

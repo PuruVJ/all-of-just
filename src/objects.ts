@@ -17,3 +17,4 @@ export { default as safeGet } from 'just-safe-get';
 export { default as safeSet } from 'just-safe-set';
 export { default as objectsTypeof } from 'just-typeof';
 export { default as flipObject } from 'just-flip-object';
+export { default as deepMapValues } from 'just-deep-map-values';

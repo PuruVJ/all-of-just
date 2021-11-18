@@ -102,6 +102,7 @@ import {
   objectsSafeSet,
   objectsTypeof,
   objectsValues,
+  objectsDeepMapValues
   // Arrays Module
   arraysCartesianProduct,
   arraysCompact,
@@ -207,6 +208,7 @@ import {
   safeGet,
   safeSet,
   values,
+  deepMapValues,
 } from 'all-of-just/objects';
 
 import {
