@@ -1,7 +1,7 @@
 {
   "name": "all-of-just",
   "private": true,
-  "version": "0.16.0",
+  "version": "0.16.1",
   "description": "A single collection of all of Just utility functions in one single library",
   "files": [
     "*"
@@ -25,50 +25,42 @@
     ".": {
       "types": "./index.d.ts",
       "module": "./index.mjs",
-      "import": "./index.mjs",
-      "require": "./index.cjs"
+      "import": "./index.mjs"
     },
     "./arrays": {
       "types": "./arrays.d.ts",
       "module": "./arrays.mjs",
-      "import": "./arrays.mjs",
-      "require": "./arrays.cjs"
+      "import": "./arrays.mjs"
     },
     "./collection": {
       "types": "./collection.d.ts",
       "module": "./collection.mjs",
-      "import": "./collection.mjs",
-      "require": "./collection.cjs"
+      "import": "./collection.mjs"
     },
     "./functions": {
       "types": "./functions.d.ts",
       "module": "./functions.mjs",
-      "import": "./functions.mjs",
-      "require": "./functions.cjs"
+      "import": "./functions.mjs"
     },
     "./numbers": {
       "types": "./numbers.d.ts",
       "module": "./numbers.mjs",
-      "import": "./numbers.mjs",
-      "require": "./numbers.cjs"
+      "import": "./numbers.mjs"
     },
     "./objects": {
       "types": "./objects.d.ts",
       "module": "./objects.mjs",
-      "import": "./objects.mjs",
-      "require": "./objects.cjs"
+      "import": "./objects.mjs"
     },
     "./statistics": {
       "types": "./statistics.d.ts",
       "module": "./statistics.mjs",
-      "import": "./statistics.mjs",
-      "require": "./statistics.cjs"
+      "import": "./statistics.mjs"
     },
     "./strings": {
       "types": "./strings.d.ts",
       "module": "./strings.mjs",
-      "import": "./strings.mjs",
-      "require": "./strings.cjs"
+      "import": "./strings.mjs"
     }
   },
   "keywords": [

@@ -5,7 +5,7 @@ A single library containing all of the [Just library's](https://github.com/angus
 Features:
 
 - 🤏 **Tiny** - Including everything from this library is just [7.4KB min+gzip](https://bundle.js.org/?share=PTAEGEBsEsGMGtQCUCuA7UAzA9gJ1AC4AWApqAELoAmkJVoA1KALLRrSbR2OgDiAXtAAOQ7kICGCcQHMyAZ2j8SAKBIAPIXgKgAVFlzYAtqABE4yJAC02TJYBWKOQRMBuIA)
-- 🌳 **Tree Shakeable** - Library is fully tree-shakeable, meaning you might just not ever hit the 7.4KB mentioned above. If you're using only 3-4 functions from this library, chances are high you'll barely reach just **1KB**
+- 🌳 **Tree Shakeable** - Library is fully tree-shakeable, meaning you may just never hit the 7.4KB mentioned above. If you're using only 3-4 functions from this library, chances are high you'll barely reach just **1KB**
 - 🗃️ **Pre-bundled** - This package doesn't install any of the `just-` packages. Everything is pre-bundled in it, hence even downloading this package is fast and light on your storage.
 
 # Motivation
@@ -22,7 +22,7 @@ This library(`all-of-just`) strives to give a similar experience, at no added co
 
 ## Installation size?
 
-When you install `all-of-just`, you're not downloading all the `just-*` packages, which along with their packaged `package.json` and `README.md` can be quite big when downloaded all at once. Rather, `all-of-just` bundles all of them together into a few JS files, along with proper TypeScript types. Your machine downloads no more than `100KB` while installing this library(In future, the size will be halved right when we drop CommonJS support 🙂)
+When you install `all-of-just`, you're not downloading all the `just-*` packages, which along with their packaged `package.json` and `README.md` can be quite big when downloaded all at once. Rather, `all-of-just` bundles all of them together into a few JS files, along with proper TypeScript types. Your machine downloads no more than `62.5KB` while installing this library
 
 ## Assumptions
 
@@ -289,7 +289,7 @@ This package is right now in the 0.x range. This is gonna stay that way until ev
 
 1. This package has TypeScript definition for some packages, but is lacking for a few of them at the time of writing. [Complete list here](https://github.com/angus-c/just/issues/313)
 
-2. Some of the packaged that do have TypeScript support export more than the function, they export some additional types/functions too. However, to keep `all-of-just` simple, we don't export those types/functions. You'll need to install that package separately and import from it.
+2. Some of the packages that do have TypeScript support export more than the function, they export some additional types/functions too. However, to keep `all-of-just` simple, it don't export those types/functions. You'll need to install that package separately and import from it.
 
 `Just` package maintainer is looking for contributors to add TypeScript definitions to the existing `packages`. By helping `just` get better at TypeScript, you'll be indirectly making `all-of-just` better too 🔥🔥.
 
