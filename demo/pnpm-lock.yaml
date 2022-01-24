@@ -2,7 +2,7 @@ lockfileVersion: 5.3
 
 specifiers:
   '@sveltejs/kit': next
-  all-of-just: 0.13.1
+  all-of-just: 0.16.1
   just-shuffle: ^4.0.1
   svelte: ^3.46.2
   svelte-check: ^2.3.0
@@ -11,7 +11,7 @@ specifiers:
   typescript: ^4.5.5
 
 dependencies:
-  all-of-just: 0.13.1
+  all-of-just: 0.16.1
   just-shuffle: 4.0.1
 
 devDependencies:
@@ -108,8 +108,8 @@ packages:
       '@types/node': 17.0.10
     dev: true
 
-  /all-of-just/0.13.1:
-    resolution: {integrity: sha512-hUdwJHQJ4jfgRW4Lms3RTljEhJPT27mfgcKCgSju0Yio5A9oh1zmdyp2MtJr73Vwe7AK11lFay6kYidRlGqy4A==}
+  /all-of-just/0.16.1:
+    resolution: {integrity: sha512-hbOcwu4CQF50Qz9fwgMpnCYIlFH97PqVkiZSDnB3bcFt8BVKEvc/2LJxi4TJHEOzjjj9mL45ndLHcyaN0+Ie2Q==}
     dev: false
 
   /anymatch/3.1.2:

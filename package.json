@@ -1,7 +1,7 @@
 {
   "name": "all-of-just",
   "private": true,
-  "version": "0.16.1",
+  "version": "0.16.2",
   "description": "A single collection of all of Just utility functions in one single library",
   "files": [
     "*"
@@ -14,8 +14,8 @@
     "url": "https://github.com/puruvj/all-of-just/issues"
   },
   "sideEffects": false,
-  "main": "index.cjs",
-  "module": "index.mjs",
+  "main": "index.js",
+  "module": "index.js",
   "types": "index.d.ts",
   "scripts": {
     "pub": "pnpm build && cd dist && pnpm publish",
@@ -24,43 +24,43 @@
   "exports": {
     ".": {
       "types": "./index.d.ts",
-      "module": "./index.mjs",
-      "import": "./index.mjs"
+      "module": "./index.js",
+      "import": "./index.js"
     },
     "./arrays": {
       "types": "./arrays.d.ts",
-      "module": "./arrays.mjs",
-      "import": "./arrays.mjs"
+      "module": "./arrays.js",
+      "import": "./arrays.js"
     },
     "./collection": {
       "types": "./collection.d.ts",
-      "module": "./collection.mjs",
-      "import": "./collection.mjs"
+      "module": "./collection.js",
+      "import": "./collection.js"
     },
     "./functions": {
       "types": "./functions.d.ts",
-      "module": "./functions.mjs",
-      "import": "./functions.mjs"
+      "module": "./functions.js",
+      "import": "./functions.js"
     },
     "./numbers": {
       "types": "./numbers.d.ts",
-      "module": "./numbers.mjs",
-      "import": "./numbers.mjs"
+      "module": "./numbers.js",
+      "import": "./numbers.js"
     },
     "./objects": {
       "types": "./objects.d.ts",
-      "module": "./objects.mjs",
-      "import": "./objects.mjs"
+      "module": "./objects.js",
+      "import": "./objects.js"
     },
     "./statistics": {
       "types": "./statistics.d.ts",
-      "module": "./statistics.mjs",
-      "import": "./statistics.mjs"
+      "module": "./statistics.js",
+      "import": "./statistics.js"
     },
     "./strings": {
       "types": "./strings.d.ts",
-      "module": "./strings.mjs",
-      "import": "./strings.mjs"
+      "module": "./strings.js",
+      "import": "./strings.js"
     }
   },
   "keywords": [

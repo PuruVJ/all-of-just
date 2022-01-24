@@ -20,7 +20,7 @@ export default defineConfig({
     {
       format: 'esm',
       dir: './dist/',
-      entryFileNames: '[name].mjs',
+      entryFileNames: '[name].js',
       minifyInternalExports: true,
       sourcemap: true,
     },
