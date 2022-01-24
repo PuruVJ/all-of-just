@@ -24,12 +24,5 @@ export default defineConfig({
       minifyInternalExports: true,
       sourcemap: true,
     },
-    {
-      format: 'cjs',
-      entryFileNames: '[name].[format]',
-      dir: './dist/',
-      minifyInternalExports: true,
-      sourcemap: true,
-    },
   ],
 });
