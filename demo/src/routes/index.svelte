@@ -1,7 +1,7 @@
 <script>
-  import { arraysShuffle } from 'all-of-just';
+  import { shuffle } from 'all-of-just/arrays';
 
-  console.log(arraysShuffle([1, 3, 7, 1, 9]));
+  console.log(shuffle([1, 3, 7, 1, 9]));
 </script>
 
 <h1>Welcome to SvelteKit</h1>
