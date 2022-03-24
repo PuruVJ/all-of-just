@@ -9,12 +9,12 @@
     "check:watch": "svelte-check --tsconfig ./tsconfig.json --watch"
   },
   "devDependencies": {
-    "@sveltejs/kit": "next",
-    "svelte": "^3.46.2",
-    "svelte-check": "^2.3.0",
-    "svelte-preprocess": "^4.10.2",
+    "@sveltejs/kit": "^1.0.0-next.303",
+    "svelte": "^3.46.4",
+    "svelte-check": "^2.4.6",
+    "svelte-preprocess": "^4.10.4",
     "tslib": "^2.3.1",
-    "typescript": "^4.5.5"
+    "typescript": "^4.6.2"
   },
   "type": "module",
   "dependencies": {
