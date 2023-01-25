@@ -1,7 +1,6 @@
 export { default as extend } from 'just-extend';
 export { default as merge } from 'just-merge';
 export { default as values } from 'just-values';
-/** Need TS Types */
 export { default as entries } from 'just-entries';
 export { default as pick } from 'just-pick';
 export { default as omit } from 'just-omit';
