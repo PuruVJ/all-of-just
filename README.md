@@ -189,91 +189,91 @@ Available modules:
 import { clone, compare, diff, diffApply, flush, pluck } from 'all-of-just/collection';
 
 import {
-  isCircular,
-  isEmpty,
-  entries,
-  extend,
-  filterObject,
-  flipObject,
-  mapKeys,
-  mapObject,
-  mapValues,
-  merge,
-  /** EXCEPTION: in the docs it is `just-typeof`, but we can't export it as `typeof`, due to keyword conflict. So this one is named `objectsTypeof` */
-  objectsTypeof,
-  omit,
-  pick,
-  isPrimitive,
-  reduceObject,
-  safeGet,
-  safeSet,
-  values,
-  deepMapValues,
+	isCircular,
+	isEmpty,
+	entries,
+	extend,
+	filterObject,
+	flipObject,
+	mapKeys,
+	mapObject,
+	mapValues,
+	merge,
+	/** EXCEPTION: in the docs it is `just-typeof`, but we can't export it as `typeof`, due to keyword conflict. So this one is named `objectsTypeof` */
+	objectsTypeof,
+	omit,
+	pick,
+	isPrimitive,
+	reduceObject,
+	safeGet,
+	safeSet,
+	values,
+	deepMapValues,
 } from 'all-of-just/objects';
 
 import {
-  cartesianProduct,
-  compact,
-  flattenIt,
-  groupBy,
-  index,
-  insert,
-  intersect,
-  last,
-  partition,
-  permutations,
-  random,
-  range,
-  remove,
-  shuffle,
-  sortBy,
-  split,
-  splitAt,
-  tail,
-  union,
-  unique,
-  zip,
+	cartesianProduct,
+	compact,
+	flattenIt,
+	groupBy,
+	index,
+	insert,
+	intersect,
+	last,
+	partition,
+	permutations,
+	random,
+	range,
+	remove,
+	shuffle,
+	sortBy,
+	split,
+	splitAt,
+	tail,
+	union,
+	unique,
+	zip,
 } from 'all-of-just/arrays';
 
 import {
-  mean,
-  median,
-  mode,
-  percentile,
-  skewness,
-  standardDeviation,
-  variance,
+	mean,
+	median,
+	mode,
+	percentile,
+	skewness,
+	standardDeviation,
+	variance,
 } from 'all-of-just/statistics';
 
 import {
-  camelCase,
-  capitalize,
-  kebabCase,
-  leftPad,
-  pascalCase,
-  prune,
-  replaceAll,
-  rightPad,
-  snakeCase,
-  squash,
-  template,
-  truncate,
+	camelCase,
+	capitalize,
+	kebabCase,
+	leftPad,
+	pascalCase,
+	prune,
+	replaceAll,
+	rightPad,
+	snakeCase,
+	squash,
+	template,
+	truncate,
 } from 'all-of-just/strings';
 
-import { clamp, modulo, isPrime } from 'all-of-just/numbers';
+import { clamp, modulo, isPrime, randomInteger } from 'all-of-just/numbers';
 
 import {
-  compose,
-  curry,
-  debounce,
-  demethodize,
-  flip,
-  memoize,
-  memoizeLast,
-  once,
-  partial,
-  random,
-  throttle,
+	compose,
+	curry,
+	debounce,
+	demethodize,
+	flip,
+	memoize,
+	memoizeLast,
+	once,
+	partial,
+	random,
+	throttle,
 } from 'all-of-just/functions';
 ```
 
@@ -281,17 +281,11 @@ import {
 
 `all-of-just` doesn't have any original code of its own. It export the different `just-*` packages as it is without adding any logic in between. And I intend to keep it that way. That way, this library is just a proxy to the original just library, which makes sure that `just` is improved regularly, and by extension, `all-of-just` too.
 
-# Roadmap
-
-This package is right now in the 0.x range. This is gonna stay that way until every single package of `Just` library gets robust support for **TypeScript**. One of `all-of-just`'s main goal is achieve perfect TypeScript support, and that is not possible without `Just` getting full TypeScript support.
-
 # TypeScript Support
 
-1. This package has TypeScript definition for some packages, but is lacking for a few of them at the time of writing. [Complete list here](https://github.com/angus-c/just/issues/313)
+1. This package has TypeScript definition for some packages.
 
 2. Some of the packages that do have TypeScript support export more than the function, they export some additional types/functions too. However, to keep `all-of-just` simple, it don't export those types/functions. You'll need to install that package separately and import from it.
-
-`Just` package maintainer is looking for contributors to add TypeScript definitions to the existing `packages`. By helping `just` get better at TypeScript, you'll be indirectly making `all-of-just` better too 🔥🔥.
 
 [MORE INFO](https://github.com/angus-c/just#typescript-)
 

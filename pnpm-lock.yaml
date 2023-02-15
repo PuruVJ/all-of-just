@@ -59,6 +59,7 @@ specifiers:
   just-pluck-it: ^2.3.0
   just-prune: ^2.2.0
   just-random: ^3.2.0
+  just-random-integer: ^4.2.0
   just-range: ^4.2.0
   just-reduce-object: ^2.3.0
   just-remove: ^3.2.0
@@ -145,6 +146,7 @@ dependencies:
   just-pluck-it: 2.3.0
   just-prune: 2.2.0
   just-random: 3.2.0
+  just-random-integer: 4.2.0
   just-range: 4.2.0
   just-reduce-object: 2.3.0
   just-remove: 3.2.0
@@ -836,6 +838,10 @@ packages:
 
   /just-prune/2.2.0:
     resolution: {integrity: sha512-eGIjboca1DHMEWx2b7tUrQMAJR7hRN/teE25S5dPT/DWIzdaNqswfv7KayHUTmz7cF1lvL0ZgLu0jWPTynV4XQ==}
+    dev: false
+
+  /just-random-integer/4.2.0:
+    resolution: {integrity: sha512-MfabwcY+RQNCVCmZZkTYDpk/AT315+7Rkoj59+abzYxgUOiSdoZ4G5hbK/4VZqdHScu95Wnd+1MqxyUETM6xuQ==}
     dev: false
 
   /just-random/3.2.0:
