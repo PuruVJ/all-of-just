@@ -1,5 +1,12 @@
 # demo
 
+## 0.0.2
+
+### Patch Changes
+
+- Updated dependencies [004daa9]
+  - all-of-just@3.0.0
+
 ## 0.0.1
 
 ### Patch Changes
