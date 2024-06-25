@@ -4,7 +4,7 @@ A single library containing all of the [Just library's](https://github.com/angus
 
 Features:
 
-- 🤏 **Tiny** - Including everything from this library is just [7.4KB min+gzip](https://bundle.js.org/?share=PTAEGEBsEsGMGtQCUCuA7UAzA9gJ1AC4AWApqAELoAmkJVoA1KALLRrSbR2OgDiAXtAAOQ7kICGCcQHMyAZ2j8SAKBIAPIXgKgAVFlzYAtqABE4yJAC02TJYBWKOQRMBuIA)
+- 🤏 **Tiny** - Including everything from this library is just [8.04KB min+brotli](https://bundlejs.com/?q=all-of-just@3.0.0&treeshake=%5B*%5D&config=%7B%22compression%22:%22brotli%22%7D)
 - 🌳 **Tree Shakeable** - Library is fully tree-shakeable, meaning you may just never hit the 7.4KB mentioned above. If you're using only 3-4 functions from this library, chances are high you'll barely reach just **1KB**
 - 🗃️ **Pre-bundled** - This package doesn't install any of the `just-` packages. Everything is pre-bundled in it, hence even downloading this package is fast and light on your storage.
 
