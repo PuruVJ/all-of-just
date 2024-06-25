@@ -72,8 +72,8 @@
 		}
 	},
 	"scripts": {
-		"prepublish": "bun run build && npm publish --no-git-checks",
-		"build": "tsup && bun post.ts"
+		"prepublish": "bun run compile && npm publish --no-git-checks",
+		"compile": "tsup && bun post.ts"
 	},
 	"devDependencies": {
 		"@types/node": "^20.14.8",

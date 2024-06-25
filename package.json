@@ -11,6 +11,7 @@
 		"packages/demo"
 	],
 	"devDependencies": {
+		"@changesets/cli": "^2.27.6",
 		"@types/bun": "latest",
 		"@types/node": "^20.14.8",
 		"prettier": "^3.3.2",
