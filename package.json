@@ -4,7 +4,6 @@
 	"sponsor": {
 		"url": "https://github.com/sponsors/PuruVJ"
 	},
-	"module": "index.ts",
 	"type": "module",
 	"scripts": {
 		"changeset": "changeset",

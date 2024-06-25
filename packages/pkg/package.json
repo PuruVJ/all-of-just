@@ -3,7 +3,6 @@
 	"version": "2.0.0",
 	"author": "PuruVJ (@puruvjdev)",
 	"license": "MIT",
-	"private": true,
 	"sideEffects": false,
 	"type": "module",
 	"types": "dist/index.d.ts",
@@ -72,7 +71,7 @@
 		}
 	},
 	"scripts": {
-		"prepublish": "bun run compile && npm publish --no-git-checks",
+		"pub": "bun run compile && npm publish --no-git-checks",
 		"compile": "tsup && bun post.ts"
 	},
 	"devDependencies": {
