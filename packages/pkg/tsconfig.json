@@ -1,0 +1,16 @@
+{
+	"compilerOptions": {
+		"module": "ESNext",
+		"target": "ESNext",
+		"declaration": true,
+		"emitDeclarationOnly": true,
+		"declarationDir": "dist/",
+		"strict": true,
+		"esModuleInterop": true,
+		"moduleResolution": "Node",
+		"noImplicitAny": false,
+		"resolveJsonModule": true
+	},
+	"exclude": ["./scripts/"],
+	"include": ["src/**/*", "./post.ts"]
+}

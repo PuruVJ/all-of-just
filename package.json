@@ -1,167 +1,19 @@
 {
-	"name": "all-of-just",
+	"name": "all-of-all-of-just",
 	"private": true,
-	"version": "1.2.1",
-	"description": "A single collection of all of Just utility functions in one single library",
-	"files": [
-		"*"
-	],
+	"sponsor": {
+		"url": "https://github.com/sponsors/PuruVJ"
+	},
+	"module": "index.ts",
 	"type": "module",
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/puruvj/all-of-just.git"
-	},
-	"bugs": {
-		"url": "https://github.com/puruvj/all-of-just/issues"
-	},
-	"sideEffects": false,
-	"main": "index.js",
-	"module": "index.js",
-	"types": "index.d.ts",
-	"scripts": {
-		"pub": "pnpm build && cd dist && npm publish --no-git-checks",
-		"build": "tsup && tsc && cd scripts && tsx post.ts"
-	},
-	"exports": {
-		".": {
-			"types": "./index.d.ts",
-			"module": "./index.js",
-			"import": "./index.js"
-		},
-		"./arrays": {
-			"types": "./arrays.d.ts",
-			"module": "./arrays.js",
-			"import": "./arrays.js"
-		},
-		"./collection": {
-			"types": "./collection.d.ts",
-			"module": "./collection.js",
-			"import": "./collection.js"
-		},
-		"./functions": {
-			"types": "./functions.d.ts",
-			"module": "./functions.js",
-			"import": "./functions.js"
-		},
-		"./numbers": {
-			"types": "./numbers.d.ts",
-			"module": "./numbers.js",
-			"import": "./numbers.js"
-		},
-		"./objects": {
-			"types": "./objects.d.ts",
-			"module": "./objects.js",
-			"import": "./objects.js"
-		},
-		"./statistics": {
-			"types": "./statistics.d.ts",
-			"module": "./statistics.js",
-			"import": "./statistics.js"
-		},
-		"./strings": {
-			"types": "./strings.d.ts",
-			"module": "./strings.js",
-			"import": "./strings.js"
-		}
-	},
-	"keywords": [
-		"just",
-		"utility",
-		"lodash",
-		"merge",
-		"clone",
-		"array",
-		"tiny"
+	"workspaces": [
+		"packages/pkg",
+		"packages/demo"
 	],
-	"author": "PuruVJ (@puruvjdev)",
-	"license": "MIT",
 	"devDependencies": {
+		"@types/bun": "latest",
 		"@types/node": "^20.14.8",
 		"prettier": "^3.3.2",
-		"tsup": "^8.1.0",
-		"tsx": "^4.15.7",
-		"type-fest": "^4.20.1",
-		"typescript": "^5.5.2"
-	},
-	"dependencies": {
-		"just-camel-case": "^6.2.0",
-		"just-capitalize": "^3.2.0",
-		"just-cartesian-product": "^4.2.0",
-		"just-clamp": "^4.2.0",
-		"just-clone": "^6.2.0",
-		"just-compact": "^3.2.0",
-		"just-compare": "^2.3.0",
-		"just-compose": "^2.3.0",
-		"just-curry-it": "^5.3.0",
-		"just-debounce-it": "^3.2.0",
-		"just-deep-map-values": "^1.2.0",
-		"just-demethodize": "^3.2.0",
-		"just-diff": "^6.0.2",
-		"just-diff-apply": "^5.5.0",
-		"just-entries": "^2.3.0",
-		"just-extend": "^6.2.0",
-		"just-filter-object": "^3.2.0",
-		"just-flatten-it": "^5.2.0",
-		"just-flip": "^2.2.0",
-		"just-flip-object": "^2.3.0",
-		"just-flush": "^2.3.0",
-		"just-group-by": "^2.2.0",
-		"just-index": "^4.2.0",
-		"just-insert": "^3.2.0",
-		"just-intersect": "^4.3.0",
-		"just-is-circular": "^2.2.0",
-		"just-is-empty": "^3.3.0",
-		"just-is-prime": "^2.3.0",
-		"just-is-primitive": "^2.3.0",
-		"just-kebab-case": "^4.2.0",
-		"just-last": "^3.2.0",
-		"just-left-pad": "^3.2.0",
-		"just-map-keys": "^2.3.0",
-		"just-map-object": "^2.3.0",
-		"just-map-values": "^3.2.0",
-		"just-mean": "^2.2.0",
-		"just-median": "^2.2.0",
-		"just-memoize": "^2.2.0",
-		"just-memoize-last": "^3.2.0",
-		"just-merge": "^3.2.0",
-		"just-mode": "^2.2.0",
-		"just-modulo": "^2.2.0",
-		"just-omit": "^2.2.0",
-		"just-once": "^2.2.0",
-		"just-partial-it": "^3.4.0",
-		"just-partition": "^2.2.0",
-		"just-pascal-case": "^3.2.0",
-		"just-percentile": "^4.2.0",
-		"just-permutations": "^2.2.1",
-		"just-pick": "^4.2.0",
-		"just-pluck-it": "^2.3.0",
-		"just-prune": "^2.2.0",
-		"just-random": "^3.2.0",
-		"just-random-integer": "^4.2.0",
-		"just-range": "^4.2.0",
-		"just-reduce-object": "^2.3.0",
-		"just-remove": "^3.2.0",
-		"just-replace-all": "^2.2.0",
-		"just-right-pad": "^3.2.0",
-		"just-safe-get": "^4.2.0",
-		"just-safe-set": "^4.2.1",
-		"just-shuffle": "^4.2.0",
-		"just-skewness": "^2.2.0",
-		"just-snake-case": "^3.2.0",
-		"just-sort-by": "^3.2.0",
-		"just-split": "^3.2.0",
-		"just-split-at": "^3.2.0",
-		"just-squash": "^2.2.0",
-		"just-standard-deviation": "^2.2.0",
-		"just-tail": "^3.2.0",
-		"just-template": "^2.2.0",
-		"just-throttle": "^4.2.0",
-		"just-truncate": "^2.2.0",
-		"just-typeof": "^3.2.0",
-		"just-union": "^3.2.0",
-		"just-unique": "^4.2.0",
-		"just-values": "^2.2.0",
-		"just-variance": "^2.2.0",
-		"just-zip-it": "^3.2.0"
+		"tsup": "^8.1.0"
 	}
 }
