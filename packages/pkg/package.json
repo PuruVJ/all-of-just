@@ -39,10 +39,10 @@
 			"module": "./dist/arrays.js",
 			"import": "./dist/arrays.js"
 		},
-		"./collection": {
-			"types": "./dist/collection.d.ts",
-			"module": "./dist/collection.js",
-			"import": "./dist/collection.js"
+		"./collections": {
+			"types": "./dist/collections.d.ts",
+			"module": "./dist/collections.js",
+			"import": "./dist/collections.js"
 		},
 		"./functions": {
 			"types": "./dist/functions.d.ts",
@@ -98,6 +98,7 @@
 		"just-flip-object": "^2.3.0",
 		"just-flush": "^2.3.0",
 		"just-group-by": "^2.2.0",
+		"just-has": "^2.3.0",
 		"just-index": "^4.2.0",
 		"just-insert": "^3.2.0",
 		"just-intersect": "^4.3.0",
@@ -120,12 +121,14 @@
 		"just-modulo": "^2.2.0",
 		"just-omit": "^2.2.0",
 		"just-once": "^2.2.0",
+		"just-order-by": "^1.0.0",
 		"just-partial-it": "^3.4.0",
 		"just-partition": "^2.2.0",
 		"just-pascal-case": "^3.2.0",
 		"just-percentile": "^4.2.0",
 		"just-permutations": "^2.2.1",
 		"just-pick": "^4.2.0",
+		"just-pipe": "^1.0.0",
 		"just-pluck-it": "^2.3.0",
 		"just-prune": "^2.2.0",
 		"just-random": "^3.2.0",

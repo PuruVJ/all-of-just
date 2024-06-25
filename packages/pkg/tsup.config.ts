@@ -5,7 +5,7 @@ export default defineConfig({
 	clean: true,
 	entry: {
 		index: './src/index.ts',
-		collection: './src/collection.ts',
+		collections: './src/collections.ts',
 		objects: './src/objects.ts',
 		arrays: './src/arrays.ts',
 		statistics: './src/statistics.ts',

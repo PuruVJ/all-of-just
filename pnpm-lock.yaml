@@ -111,6 +111,9 @@ importers:
       just-group-by:
         specifier: ^2.2.0
         version: 2.2.0
+      just-has:
+        specifier: ^2.3.0
+        version: 2.3.0
       just-index:
         specifier: ^4.2.0
         version: 4.2.0
@@ -177,6 +180,9 @@ importers:
       just-once:
         specifier: ^2.2.0
         version: 2.2.0
+      just-order-by:
+        specifier: ^1.0.0
+        version: 1.0.0
       just-partial-it:
         specifier: ^3.4.0
         version: 3.4.0
@@ -195,6 +201,9 @@ importers:
       just-pick:
         specifier: ^4.2.0
         version: 4.2.0
+      just-pipe:
+        specifier: ^1.0.0
+        version: 1.0.0
       just-pluck-it:
         specifier: ^2.3.0
         version: 2.3.0
@@ -728,7 +737,6 @@ packages:
 
   bun@1.1.17:
     resolution: {integrity: sha512-x2vUqI75XQ11Qxb3FzQCd/AkbA8A3AiJ35xfw49JeNgu0MTi0RCuW+1zOyFf5iJM0xU07LKf2H69n4ASuEqhtQ==}
-    cpu: [arm64, x64]
     os: [darwin, linux, win32]
     hasBin: true
 
@@ -1030,6 +1038,9 @@ packages:
   just-group-by@2.2.0:
     resolution: {integrity: sha512-brZocDSmkvDYc+FOr07GiTar4cp7K6OB9huVOrj5LX+iXfCe3hTvn2KGM811LE/SBQkCzuYDDEcG8HA/dKDrnw==}
 
+  just-has@2.3.0:
+    resolution: {integrity: sha512-JzxCot/ETqLDullSSC5OtT/PLWiqgRNO5z33gVit6BoCXe/6BHut33o9ZunG5jQSqeY4EyzFnl8Wqc7S8Ci/wQ==}
+
   just-index@4.2.0:
     resolution: {integrity: sha512-9XhfeX7FDpV+OQWf6OV40IylqbFFWZ2vDGo9rcrK2gTVtXQsuWpgiwtF+A6tS5nyqx+rv9XPZViZBDFLNCaUhQ==}
 
@@ -1096,6 +1107,9 @@ packages:
   just-once@2.2.0:
     resolution: {integrity: sha512-Wo547FgUOUZ98jbrZ1KX8nRezdEdtgIlC2NK1u1RvR1oZ/WoU++FjprP8J8hRbaox776MHyeMZZED4DvhhHVjg==}
 
+  just-order-by@1.0.0:
+    resolution: {integrity: sha512-m83kcBMoX43jRLDzR6J7NzIpEEpMmMmh0xwVSMKpXObIFh6ejxpQ02HXc9gCq5cFWHbL5gZ3yRHRGYgMGpoUnA==}
+
   just-partial-it@3.4.0:
     resolution: {integrity: sha512-XTWJmnGa9t+UCYgDtYczVXjFwMJ/QYsmzMMzEoYzGAzWNEgDU4WwGDptM0JZxyPiigFr/Etl7t0Z57WpIx0RnQ==}
 
@@ -1113,6 +1127,9 @@ packages:
 
   just-pick@4.2.0:
     resolution: {integrity: sha512-m6bi0P/gFq5GEQJGYfHFsdod6fogViNIhsKbPBYavqF9SKFfMKPz7kf6ROL2PblkOdaib9vN/wJ7VXhCJre5Hw==}
+
+  just-pipe@1.0.0:
+    resolution: {integrity: sha512-KVzKqwS6JPk4lXuQFh+3wU0Me99szjdk/KXQbqqz4kbe+gFLi/tF1ksEZJFLGCIoeUMyMXGKHTZl+M2NYotbbQ==}
 
   just-pluck-it@2.3.0:
     resolution: {integrity: sha512-M2UdKR4nsVaOekKqKTikIQXJLhwJfmL8MA6KY2ZbHs60UNTWKnee2Bugo6ExzI8ITLl9xZFYCuBYiZzCnzvxnw==}
@@ -2383,6 +2400,8 @@ snapshots:
 
   just-group-by@2.2.0: {}
 
+  just-has@2.3.0: {}
+
   just-index@4.2.0: {}
 
   just-insert@3.2.0: {}
@@ -2427,6 +2446,8 @@ snapshots:
 
   just-once@2.2.0: {}
 
+  just-order-by@1.0.0: {}
+
   just-partial-it@3.4.0: {}
 
   just-partition@2.2.0: {}
@@ -2438,6 +2459,8 @@ snapshots:
   just-permutations@2.2.1: {}
 
   just-pick@4.2.0: {}
+
+  just-pipe@1.0.0: {}
 
   just-pluck-it@2.3.0: {}
 

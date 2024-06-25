@@ -6,6 +6,7 @@ export { default as index } from 'just-index';
 export { default as insert } from 'just-insert';
 export { default as intersect } from 'just-intersect';
 export { default as last } from 'just-last';
+export { default as orderBy } from 'just-order-by';
 export { default as partition } from 'just-partition';
 export { default as permutations } from 'just-permutations';
 export { default as random } from 'just-random';
