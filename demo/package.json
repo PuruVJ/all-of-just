@@ -1,24 +1,18 @@
 {
   "name": "demo",
-  "version": "0.0.1",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "dev": "svelte-kit dev",
-    "build": "svelte-kit build",
-    "preview": "svelte-kit preview",
-    "check": "svelte-check --tsconfig ./tsconfig.json",
-    "check:watch": "svelte-check --tsconfig ./tsconfig.json --watch"
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
   },
   "devDependencies": {
-    "@sveltejs/kit": "^1.0.0-next.303",
-    "svelte": "^3.46.4",
-    "svelte-check": "^2.4.6",
-    "svelte-preprocess": "^4.10.4",
-    "tslib": "^2.3.1",
-    "typescript": "^4.6.2"
+    "typescript": "^5.2.2",
+    "vite": "^5.3.1"
   },
-  "type": "module",
   "dependencies": {
-    "all-of-just": "0.16.3",
-    "just-shuffle": "^4.0.1"
+    "all-of-just": "^1.2.1"
   }
 }

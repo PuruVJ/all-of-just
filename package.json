@@ -1,7 +1,7 @@
 {
 	"name": "all-of-just",
 	"private": true,
-	"version": "1.2.0",
+	"version": "1.2.1",
 	"description": "A single collection of all of Just utility functions in one single library",
 	"files": [
 		"*"
@@ -19,8 +19,8 @@
 	"module": "index.js",
 	"types": "index.d.ts",
 	"scripts": {
-		"pub": "pnpm build && cd dist && pnpm publish",
-		"build": "tsc && tsup && cd scripts && tsx post.ts"
+		"pub": "pnpm build && cd dist && npm publish --no-git-checks",
+		"build": "tsup && tsc && cd scripts && tsx post.ts"
 	},
 	"exports": {
 		".": {
