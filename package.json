@@ -6,10 +6,11 @@
 	},
 	"module": "index.ts",
 	"type": "module",
-	"workspaces": [
-		"packages/pkg",
-		"packages/demo"
-	],
+	"scripts": {
+		"changeset": "changeset",
+		"ci:version": "changeset version",
+		"ci:release": "changeset publish"
+	},
 	"devDependencies": {
 		"@changesets/cli": "^2.27.6",
 		"@types/bun": "latest",

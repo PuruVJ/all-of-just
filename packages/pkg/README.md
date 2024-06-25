@@ -199,8 +199,7 @@ import {
 	mapObject,
 	mapValues,
 	merge,
-	/** EXCEPTION: in the docs it is `just-typeof`, but we can't export it as `typeof`, due to keyword conflict. So this one is named `objectsTypeof` */
-	objectsTypeof,
+	typeOf,
 	omit,
 	pick,
 	isPrimitive,

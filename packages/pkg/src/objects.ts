@@ -15,5 +15,5 @@ export { default as pick } from 'just-pick';
 export { default as reduceObject } from 'just-reduce-object';
 export { default as safeGet } from 'just-safe-get';
 export { default as safeSet } from 'just-safe-set';
-export { default as objectsTypeof } from 'just-typeof';
+export { default as typeOf } from 'just-typeof';
 export { default as values } from 'just-values';

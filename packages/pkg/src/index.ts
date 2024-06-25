@@ -24,7 +24,7 @@ export { default as objectsPick } from 'just-pick';
 export { default as objectsReduceObject } from 'just-reduce-object';
 export { default as objectsSafeGet } from 'just-safe-get';
 export { default as objectsSafeSet } from 'just-safe-set';
-export { default as objectsTypeof } from 'just-typeof';
+export { default as objectsTypeOf } from 'just-typeof';
 export { default as objectsValues } from 'just-values';
 
 /** ARRAYS */
