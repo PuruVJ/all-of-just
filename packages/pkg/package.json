@@ -39,10 +39,10 @@
 			"module": "./dist/arrays.js",
 			"import": "./dist/arrays.js"
 		},
-		"./collection": {
-			"types": "./dist/collection.d.ts",
-			"module": "./dist/collection.js",
-			"import": "./dist/collection.js"
+		"./collections": {
+			"types": "./dist/collections.d.ts",
+			"module": "./dist/collections.js",
+			"import": "./dist/collections.js"
 		},
 		"./functions": {
 			"types": "./dist/functions.d.ts",
