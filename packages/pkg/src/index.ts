@@ -1,10 +1,10 @@
 /** COLLECTIONS */
-export { default as collectionClone } from 'just-clone';
-export { default as collectionCompare } from 'just-compare';
-export { diff as collectionDiff } from 'just-diff';
-export { diffApply as collectionDiffApply } from 'just-diff-apply';
-export { default as collectionFlush } from 'just-flush';
-export { default as collectionPluck } from 'just-pluck-it';
+export { default as collectionsClone } from 'just-clone';
+export { default as collectionsCompare } from 'just-compare';
+export { diff as collectionsDiff } from 'just-diff';
+export { diffApply as collectionsDiffApply } from 'just-diff-apply';
+export { default as collectionsFlush } from 'just-flush';
+export { default as collectionsPluck } from 'just-pluck-it';
 
 /** OBJECTS */
 export { default as objectsDeepMapValues } from 'just-deep-map-values';
@@ -12,6 +12,7 @@ export { default as objectsEntries } from 'just-entries';
 export { default as objectsExtend } from 'just-extend';
 export { default as objectsFilterObject } from 'just-filter-object';
 export { default as objectsFlipObject } from 'just-flip-object';
+export { default as objectsHas } from 'just-has';
 export { default as objectsIsCircular } from 'just-is-circular';
 export { default as objectsIsEmpty } from 'just-is-empty';
 export { default as objectsIsPrimitive } from 'just-is-primitive';
@@ -36,6 +37,7 @@ export { default as arraysIndex } from 'just-index';
 export { default as arraysInsert } from 'just-insert';
 export { default as arraysIntersect } from 'just-intersect';
 export { default as arraysLast } from 'just-last';
+export { default as arraysOrderBy } from 'just-order-by';
 export { default as arraysPartition } from 'just-partition';
 export { default as arraysPermutations } from 'just-permutations';
 export { default as arraysRandom } from 'just-random';
@@ -89,5 +91,6 @@ export { default as functionsMemoize } from 'just-memoize';
 export { default as functionsMemoizeLast } from 'just-memoize-last';
 export { default as functionsOnce } from 'just-once';
 export { default as functionsPartial } from 'just-partial-it';
+export { default as functionsPipe } from 'just-pipe';
 export { default as functionsRandom } from 'just-random';
 export { default as functionsThrottle } from 'just-throttle';

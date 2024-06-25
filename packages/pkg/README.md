@@ -37,22 +37,23 @@ So, to you use a function in one of these modules, all you got to do is import t
 ```ts
 // just-clone
 // A part of `Collection` module
-import { collectionClone } from 'all-of-just';
+import { collectionsClone } from 'all-of-just';
 ```
 
-Again, we want the equivalent of `just-clone` here. `clone` method is part of `Collection` module, so we import `collectionClone`.
+Again, we want the equivalent of `just-clone` here. `clone` method is part of `Collection` module, so we import `collectionsClone`.
 
 Here's all the functions below 👇
 
 ```js
 import {
-  // `Collection` module
-  collectionClone,
-  collectionCompare,
-  collectionDiff,
-  collectionDiffApply,
-  collectionFlush,
-  collectionPluck,
+  // `Collections` module
+  collectionsClone,
+  collectionsCompare,
+  collectionsDiff,
+  collectionsDiffApply,
+  collectionsFlush,
+  collectionsPluck,
+
   // `Objects` module
   objectsEntries,
   objectsExtend,
@@ -72,7 +73,9 @@ import {
   objectsSafeSet,
   objectsTypeof,
   objectsValues,
-  objectsDeepMapValues
+  objectsDeepMapValues,
+  objectsHas,
+
   // Arrays Module
   arraysCartesianProduct,
   arraysCompact,
@@ -95,6 +98,8 @@ import {
   arraysUnion,
   arraysUnique,
   arraysZip,
+  arraysOrderBy,
+
   // Statistics module
   statisticsMean,
   statisticsMedian,
@@ -103,6 +108,7 @@ import {
   statisticsSkewness,
   statisticsStandardDeviation,
   statisticsVariance,
+
   // Strings module
   stringsCamelCase,
   stringsCapitalize,
@@ -116,10 +122,13 @@ import {
   stringsSquash,
   stringsTemplate,
   stringsTruncate,
+
   // Numbers module
   numbersClamp,
   numbersModulo,
   numbersIsPrime,
+  numbersRandomInteger,
+
   // Functions modules
   functionsCompose,
   functionsCurry,
@@ -132,6 +141,7 @@ import {
   functionsPartial,
   functionsRandom,
   functionsThrottle,
+  functionsPipe,
 } from 'all-of-just';
 ```
 
@@ -142,107 +152,123 @@ If you find these confusing, head over to the official [Docs](https://github.com
 The convention of `[module][Function]` may not be preferable. In that case, you can use the function directly from the submodules.
 
 ```js
-import { clone } from 'all-of-just/collection';
+import { clone } from 'all-of-just/collections';
 ```
 
 This is equivalent to
 
 ```js
-import { collectionClone } from 'all-of-just';
+import { collectionsClone } from 'all-of-just';
 ```
 
 You don't have to type the module name before the actual function.
 
 Available modules:
 
+<!-- prettier-ignore -->
 ```ts
-import { clone, compare, diff, diffApply, flush, pluck } from 'all-of-just/collection';
+import { 
+  clone, 
+  compare, 
+  diff, 
+  diffApply, 
+  flush, 
+  pluck
+} from 'all-of-just/collections';
 
 import {
-	isCircular,
-	isEmpty,
-	entries,
-	extend,
-	filterObject,
-	flipObject,
-	mapKeys,
-	mapObject,
-	mapValues,
-	merge,
-	typeOf,
-	omit,
-	pick,
-	isPrimitive,
-	reduceObject,
-	safeGet,
-	safeSet,
-	values,
-	deepMapValues,
+  isCircular,
+  isEmpty,
+  entries,
+  extend,
+  filterObject,
+  flipObject,
+  mapKeys,
+  mapObject,
+  mapValues,
+  merge,
+  typeOf,
+  omit,
+  pick,
+  isPrimitive,
+  reduceObject,
+  safeGet,
+  safeSet,
+  values,
+  deepMapValues,
+  has
 } from 'all-of-just/objects';
 
 import {
-	cartesianProduct,
-	compact,
-	flattenIt,
-	groupBy,
-	index,
-	insert,
-	intersect,
-	last,
-	partition,
-	permutations,
-	random,
-	range,
-	remove,
-	shuffle,
-	sortBy,
-	split,
-	splitAt,
-	tail,
-	union,
-	unique,
-	zip,
+  cartesianProduct,
+  compact,
+  flattenIt,
+  groupBy,
+  index,
+  insert,
+  intersect,
+  last,
+  partition,
+  permutations,
+  random,
+  range,
+  remove,
+  shuffle,
+  sortBy,
+  split,
+  splitAt,
+  tail,
+  union,
+  unique,
+  zip,
+  orderBy
 } from 'all-of-just/arrays';
 
 import {
-	mean,
-	median,
-	mode,
-	percentile,
-	skewness,
-	standardDeviation,
-	variance,
+  mean,
+  median,
+  mode,
+  percentile,
+  skewness,
+  standardDeviation,
+  variance
 } from 'all-of-just/statistics';
 
 import {
-	camelCase,
-	capitalize,
-	kebabCase,
-	leftPad,
-	pascalCase,
-	prune,
-	replaceAll,
-	rightPad,
-	snakeCase,
-	squash,
-	template,
-	truncate,
+  camelCase,
+  capitalize,
+  kebabCase,
+  leftPad,
+  pascalCase,
+  prune,
+  replaceAll,
+  rightPad,
+  snakeCase,
+  squash,
+  template,
+  truncate
 } from 'all-of-just/strings';
 
-import { clamp, modulo, isPrime, randomInteger } from 'all-of-just/numbers';
+import {
+  clamp,
+  modulo,
+  sPrime,
+  andomInteger
+} from 'all-of-just/numbers';
 
 import {
-	compose,
-	curry,
-	debounce,
-	demethodize,
-	flip,
-	memoize,
-	memoizeLast,
-	once,
-	partial,
-	random,
-	throttle,
+  compose,
+  curry,
+  debounce,
+  demethodize,
+  flip,
+  memoize,
+  memoizeLast,
+  once,
+  partial,
+  random,
+  throttle,
+  pipe
 } from 'all-of-just/functions';
 ```
 

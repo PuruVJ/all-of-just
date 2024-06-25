@@ -3,6 +3,7 @@ export { default as entries } from 'just-entries';
 export { default as extend } from 'just-extend';
 export { default as filterObject } from 'just-filter-object';
 export { default as flipObject } from 'just-flip-object';
+export { default as has } from 'just-has';
 export { default as isCircular } from 'just-is-circular';
 export { default as isEmpty } from 'just-is-empty';
 export { default as isPrimitive } from 'just-is-primitive';

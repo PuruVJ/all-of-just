@@ -7,5 +7,6 @@ export { default as memoize } from 'just-memoize';
 export { default as memoizeLast } from 'just-memoize-last';
 export { default as once } from 'just-once';
 export { default as partial } from 'just-partial-it';
+export { default as pipe } from 'just-pipe';
 export { default as random } from 'just-random';
 export { default as throttle } from 'just-throttle';
